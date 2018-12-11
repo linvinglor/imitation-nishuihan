@@ -1,0 +1,104 @@
+有时候为一个网页添加一个动画效果的背景，会让网页增加一定的韵味，让网页看起来与众不同。
+第一步：准备工作
+
+工欲善其事必先利其器，我们首先需要准备一个视频
+
+第二步：html中引入视频
+
+这里我们需要用到了video/标签，然后在source里面写视频的路径，autoplay用来使其自动播放，muted用来使其静音，loop为循环播放，依照个人意愿愿意加就加，不加拉倒哈
+
+1
+2
+3
+4
+5
+<div class="videocontainer">
+    <video class="fullscreenvideo" poster="__ROOT__/Themes/tdt/Asset/images/loginbg.jpg" id="bgvid" playsinline="" autoplay="" muted="" loop="">
+        <source src="__PUBLIC__/video/loginbg.mp4" type="video/mp4">
+    </video>
+</div>
+第三步：css设置，调节视频，使其适应屏幕　　
+
+以上的步骤还不能满足我们的需求，这个时候我们会发现有滚动条，而且视频会遮挡我们要显示的内容，可这远远不是我们想要的结果啊，不怕，有我呢
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+.fullscreenvideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}
+ 
+.videocontainer{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -100; 
+}
+ 
+.videocontainer:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: rgba(25,29,34,.65);
+}
+第四步：js控制视频播放速度　
+
+可以利用video的playbackRate属性来控制video的播放速度，如果要让背景视频以慢速播放的话可以加上下面的javascript　
+
+1
+2
+3
+4
+<script>
+    var video= document.getElementById('v1');
+    video.playbackRate = 0.5;
+</script>
+好嘞，快去设置你的酷炫背景吧　　

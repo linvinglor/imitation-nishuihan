@@ -1,0 +1,333 @@
+
+div,
+body,
+ul,
+li,
+p,
+h1,
+h2,
+img,
+input,
+p,
+span,
+i {
+    margin: 0;
+    padding: 0;
+}
+i {
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.top {
+    height: 80px;
+   position: relative;
+}
+.top i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("./../img/topBg_70ab118.jpg");
+    background-repeat: no-repeat;
+
+}
+.top .logo {
+    width: 220px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+.top .logo a {
+    display: block;
+    width: 220px;
+    height: 80px;
+   background: url("./../img/navBar_sprite_6ca2454.png");
+   background-position: -20px -6px;
+}
+.nav {
+    position: absolute;
+    width: 800px;
+    height: 22px;
+    left: 500px;
+    top: 30px;
+}
+.nav li {
+    display: block;
+    height: 22px;
+    float: left;
+}
+.nav li .dei {
+    margin-left: 40px;
+    display: block;
+    height: 22px;
+    width: 100px;
+    line-height: 22px;
+    background: url("./../img/navBar_sprite_6ca2454.png");
+    background-position: -10px -104px;
+}
+.nav li:nth-child(2) i{
+    background-position: -130px -104px;
+}
+.nav li:nth-child(3) i {
+    background-position: -250px -144px;
+}
+.nav li:nth-child(4) i {
+    background-position: -370px -104px;
+}
+.nav li:hover:nth-child(1) i {
+    background-position: -10px -144px;
+}
+.nav li:hover:nth-child(2) i {
+    background-position: -130px -144px;
+}
+
+.nav li:hover:nth-child(4) i{
+    background-position: -370px -144px;
+}
+.nav .nav1 li:nth-child(1) {
+    margin-left: -10px;
+}
+.top .nav1 span {
+    float: left;
+    display: block;
+    width: 60px;
+    height: 30px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.top .nav1  a {
+    width: 20px;
+    height: 22px;
+    display: block;
+    background-image: url("./../img/icon.v5.png");
+    margin-left: 6px;
+}
+.nav .nav1 li:nth-child(1) a {
+    background-position: 0px 2px;
+}
+.nav .nav1 li:nth-child(2) a {
+    background-position: 0px -24px;
+}
+.nav .nav1 li:nth-child(3) a {
+    background-position: 0px -348px;
+}
+.nav .nav1 li:nth-child(4) a {
+    background-position: 0px -474px;
+}
+/*鼠标移入*/
+.nav .nav1 li:hover:nth-child(1) a {
+    background-position: -150px 0px;
+}
+.nav .nav1 li:hover:nth-child(2) a {
+    background-position: -150px -25px;
+}
+.nav .nav1 li:hover:nth-child(3) a {
+    background-position: -150px -350px;
+}
+.nav .nav1 li:hover:nth-child(4) a {
+    background-position: -150px -476px;
+}
+/*top的结束*/
+.moin {
+    height: 1080px;
+    background-image: url("./../img/bg_ae1dadf.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+}
+.moin1 {
+    width: 494px;
+    height: 610px;
+    background-image: url("./../img/bg_reg_4770598.png");
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    left: 976px;
+}
+.moin1 ul {
+    width: 212px;
+    height: 130px;
+    position: absolute;
+    top: 144px;
+    left: 130px;
+}
+.moin1 ul input {
+    width: 210px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.moin1 .wes {
+    width: 226px;
+    height: 34px;
+    display: block;
+    text-align: center;
+    line-height: 34px;
+    background-color: #7d90aa;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+.moin1 ul a:active {
+    color: #c2ae6f;
+}
+.moin2 {
+    width: 220px;
+    height: 34px;
+    font-size: 12px;
+    position: absolute;
+    top: 300px;
+    left: 128px;
+}
+
+.moin2 a {
+    color: #5a5b4e;
+}
+.moin3 {
+    position: absolute;
+    width: 54px;
+    height: 120px;
+    background-image: url("./../img/index_z_929447b.png");
+    background-position: 0px -137px;
+    left: 0px;
+    top: 220px;
+}
+.moin4 {
+    width: 440px;
+    height: 100px;
+    position: absolute;
+    top: 360px;
+    left: 16px;
+}
+.moin4 span {
+    width: 420px;
+    height: 50px;
+    display: block;
+    background-image: url("./../img/index_z_929447b.png");
+    background-position: -430px 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.moin4 i {
+    width: 180px;
+    height: 30px;
+    display: block;
+    background-image: url("./../img/index_z_929447b.png");
+    background-position: -396px -78px;
+    float: left;
+    margin-bottom: 10px;
+}
+.moin4 i:nth-child(2) {
+    background-position: -640px -78px;
+    float: right;
+    width: 220px;
+}
+.moin5 ul {
+    width: 484px;
+    height: 90px;
+    position: absolute;
+    left: 10px;
+    top: 478px;
+}
+.moin5 li {
+    float: left;
+    width: 233px;
+    height: 100px;
+    margin-right: 6px;
+}
+.moin .moin5 li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url("./../img/index_z_929447b.png");
+    background-position: -346px -104px;
+}
+.moin .moin5 li:nth-child(2) a {
+    background-position: -54px -134px;
+}
+.moin .moin5 li:hover:nth-child(1) a {
+    background-position: -579px -104px;
+}
+.moin .moin5 li:hover:nth-child(2) a {
+    background-position: 0px -256px;
+}
+.huo {
+    width: 1000px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 500px;
+}
+.huo .huo1 ul {
+    width: 260px;
+    height: 36px;
+    float: left;
+}
+.huo .huo1 li {
+    width: 118px;
+    height: 36px;
+    float: left;
+}
+.huo .huo1 li a {
+    display: block;
+    width: 100%;
+    height: 32px;
+    background-image: url("./../img/netease.2.png");
+}
+.huo .huo1 li:nth-child(2) a {
+    background-image: url("./../img/nie.2.png");
+    width: 140px;
+}
+.huo .huo2 {
+    width: 170px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+.huo .huo2 span {
+    width: 38px;
+    height: 32px;
+    display: block;
+    background-image: url("./../img/leihuo.2.png");
+    float: left;
+    margin-right: 6px;
+}
+.huo .huo2 li {
+    width: 30px;
+    height: 34px;
+    float: left;
+    margin-right: 10px;
+}
+.huo .huo2 li  a {
+    background-image: url("./../img/wen.png");
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.huo .huo2 li:nth-child(2) a {
+    background-image: url("./../img/wen2.png");
+}
+.huo .huo2 li:nth-child(3) a {
+    background-image: url("./../img/fuxi.2.png");
+    height: 32px;
+}
+.huo .huo3 {
+    height: 40px;
+    font-size: 12px;
+    width: 376px;
+    float: left;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.huo .huo3 a {
+    float: right;
+    display: block;
+    height: 20px;
+    width: 130px;
+    background-color: #610000;
+    color: #FFFFFF;
+}

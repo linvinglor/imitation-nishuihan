@@ -1,0 +1,1008 @@
+/* 初始化代码 */
+
+body,
+div,
+span,
+p,
+img,
+input,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+a,
+strong,
+em,
+del,
+i,
+ins {
+    margin: 0;
+    padding: 0;
+    /* 清除标签的默认内外边距 */
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    /* display: block; */
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+
+body {
+    font: 12px/100% "微软雅黑";
+    color: #62a1c9;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-width: 1280px;
+    height: 1055px;
+    /*background-color: #004d37;*/
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+@keyframes toLeftBtn{0%,100%{-webkit-transform:translateX(0);-moz-transform:translateX(0);-ms-transform:translateX(0);-o-transform:translateX(0);transform:translateX(0)}75%{-webkit-transform:translateX(-20px);-moz-transform:translateX(-20px);-ms-transform:translateX(-20px);-o-transform:translateX(-20px);transform:translateX(-20px)}}
+@keyframes toRightBtn{0%,100%{-webkit-transform:translateX(0);-moz-transform:translateX(0);-ms-transform:translateX(0);-o-transform:translateX(0);transform:translateX(0)}75%{-webkit-transform:translateX(20px);-moz-transform:translateX(20px);-ms-transform:translateX(20px);-o-transform:translateX(20px);transform:translateX(20px)}}
+@-webkit-keyframes pointIcon {
+    from {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg)
+    }
+    to {
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        transform: rotateY(360deg)
+    }
+}
+
+@keyframes pointIcon {
+    from {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg)
+    }
+    to {
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        transform: rotateY(360deg)
+    }
+}
+
+@keyframes xhl {
+    from {
+        background-position-y: 0
+    }
+    to {
+        background-position-y: -990px
+    }
+}
+
+@-webkit-keyframes guangxiaoz {
+    from {
+        background-position-y: 0
+    }
+    to {
+        background-position-y: -2010px
+    }
+}
+
+@-webkit-keyframes guangxiaox {
+    from {
+        background-position-y: 0
+    }
+    to {
+        background-position-y: -1020px
+    }
+}
+
+@-webkit-keyframes guangxiaoh {
+    from {
+        background-position-y: 0
+    }
+    to {
+        background-position-y: -1122px
+    }
+}
+@keyframes homeAudioBtn{from{background-position-y:0}to{background-position-y:-120px}}
+.homeWrap {
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+div.section {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.qmSceneWrap {
+    /*display: none*/
+   position: absolute;
+    width: 4450px;
+    height: 900px;
+    left: 0;
+    overflow: hidden;
+}
+
+.point .pointCon {
+    width: 144px;
+    height: 149px;
+}
+
+.qmSceneWrap ._qmSceneWrap {
+    width: 100%;
+    height: 100%;
+    /*    -webkit-transition: transform 3s ease;
+        -moz-transition: transform 3s ease;
+        -ms-transition: transform 3s ease;
+        -o-transition: transform 3s ease;*/
+    transition: transform 3s ease;
+}
+
+.qmSceneWrap .homeBgVideo {
+    height: 100%;
+    float: left;
+}
+
+video {
+    object-fit: contain;
+}
+
+.qmSceneWrap .qmVideo {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: url("./img/qmScene_a173dcf.webp") 0 0 no-repeat;
+}
+
+.qmSceneWrap .homeContent {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 900px;
+    transition: opacity 1s ease;
+    opacity: 1;
+}
+
+.qmSceneWrap .moveHandler {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 20%;
+}
+
+.qmSceneWrap .rightMoveHandler {
+    right: 0;
+}
+
+.qmSceneWrap .leftMoveHandler {
+    left: 0;
+}
+
+.qmSceneWrap.show .point {
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.qmSceneWrap .point.smz {
+    top: 158px;
+    left: 966px;
+    width: 144px;
+    height: 149px;
+}
+
+.qmSceneWrap .point {
+    position: absolute;
+    cursor: pointer;
+    transition: opacity 1.5s ease;
+}
+
+.qmSceneWrap .point.smz .guangxiao {
+    left: 20px;
+    bottom: 7px;
+}
+
+.qmSceneWrap .point .guangxiao {
+    position: absolute;
+}
+
+.qmSceneWrap .point .guangxiao_h {
+    display: none;
+    position: absolute;
+    width: 136px;
+    height: 102px;
+    background: url(./img/guangxiaoh_c5cbffb.png) 0 0 no-repeat;
+    -webkit-animation: guangxiaox 1.5s steps(10) infinite 300ms 0 ease;
+    -moz-animation: guangxiaox 1.5s steps(10) infinite 300ms 0 ease;
+    -ms-animation: guangxiaox 1.5s steps(10) infinite 300ms 0 ease;
+    animation: guangxiaox 1.5s steps(10) infinite 300ms 0 ease;
+    -moz-animation: guangxiaox 1.5s steps(10) infinite;
+    -webkit-animation: guangxiaox 1.5s steps(10) infinite;
+    -o-animation: guangxiaox 1.5s steps(10) infinite;
+    -ms-animation: guangxiaox 1.5s steps(10) infinite;
+    animation: guangxiaox 1.5s steps(10) infinite;
+}
+
+.qmSceneWrap .point.guangxiaoX .guangxiao {
+    bottom: 0;
+    width: 88px;
+    height: 34px;
+    background: url("./img/guangxiaox_299f8d8.png") 0 0 no-repeat;
+    -webkit-animation: guangxiaox 3s steps(30) infinite 300ms 0 ease;
+    -moz-animation: guangxiaox 3s steps(30) infinite 300ms 0 ease;
+    -ms-animation: guangxiaox 3s steps(30) infinite 300ms 0 ease;
+    animation: guangxiaox 3s steps(30) infinite 300ms 0 ease;
+    -moz-animation: guangxiaox 3s steps(30) infinite;
+    -webkit-animation: guangxiaox 3s steps(30) infinite;
+    -o-animation: guangxiaox 3s steps(30) infinite;
+    -ms-animation: guangxiaox 3s steps(30) infinite;
+    animation: guangxiaox 3s steps(30) infinite
+}
+
+.qmSceneWrap .point.guangxiaoZ .guangxiao {
+    top: 36px;
+    left: 27px;
+    width: 67px;
+    height: 67px;
+    background: url(./img/guangxiaoz_b016c1f.png) 0 0 no-repeat;
+    -webkit-animation: guangxiaoz 3s steps(30) infinite 300ms 0 ease;
+    -moz-animation: guangxiaoz 3s steps(30) infinite 300ms 0 ease;
+    -ms-animation: guangxiaoz 3s steps(30) infinite 300ms 0 ease;
+    animation: guangxiaoz 3s steps(30) infinite 300ms 0 ease;
+    -moz-animation: guangxiaoz 3s steps(30) infinite;
+    -webkit-animation: guangxiaoz 3s steps(30) infinite;
+    -o-animation: guangxiaoz 3s steps(30) infinite;
+    -ms-animation: guangxiaoz 3s steps(30) infinite;
+    animation: guangxiaoz 3s steps(30) infinite
+}
+
+.qmSceneWrap .point > div {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.qmSceneWrap .point.dfj {
+    top: 236px;
+    left: 1459px;
+    width: 142px;
+    height: 155px
+}
+
+.qmSceneWrap .point.dfj .pointCon {
+    background: url("./img/dfj_f62bb3b.png") 0 0 no-repeat
+}
+.qmSceneWrap .pointInfo {
+    background-image: url('./img/ponitName_1756c5d.png');
+    width: 30px;
+    position: absolute;
+    display: none;
+}
+.qmSceneWrap .point.dfj .pointInfo {
+    top: 26px;
+    left: 11px;
+    background-position: -50px -300px;
+    height: 104px;
+    -webkit-transform: translateX(-60px);
+    -moz-transform: translateX(-60px);
+    -ms-transform: translateX(-60px);
+    -o-transform: translateX(-60px);
+    transform: translateX(-60px)
+}
+
+.qmSceneWrap .point .pointIcon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url(./img/pointIcon_7d8e936.png) no-repeat;
+    -webkit-animation: pointIcon 1.5s linear infinite 300ms 0 ease;
+    -moz-animation: pointIcon 1.5s linear infinite 300ms 0 ease;
+    -ms-animation: pointIcon 1.5s linear infinite 300ms 0 ease;
+    animation: pointIcon 1.5s linear infinite 300ms 0 ease;
+    -moz-animation: pointIcon 1.5s linear infinite;
+    -webkit-animation: pointIcon 1.5s linear infinite;
+    -o-animation: pointIcon 1.5s linear infinite;
+    -ms-animation: pointIcon 1.5s linear infinite;
+    animation: pointIcon 1.5s linear infinite;
+}
+
+.qmSceneWrap .point .guangxiao {
+    position: absolute;
+}
+
+.qmSceneWrap .point.dfj .pointIcon {
+    top: -25px;
+    left: 50px;
+    background-position: 0 -60px
+}
+
+.qmSceneWrap .point.dfj .guangxiao {
+    left: 37px;
+    bottom: 7px
+}
+
+.qmSceneWrap .point.dfj .guangxiao_h {
+    left: 20px;
+    bottom: -40px
+}
+
+.qmSceneWrap .point.smz {
+    top: 158px;
+    left: 966px;
+    width: 144px;
+    height: 149px
+}
+
+.qmSceneWrap .point.smz .pointCon {
+    background: url("./img/smz_01081d4.png") 0 0 no-repeat
+}
+
+.qmSceneWrap .point.smz .pointInfo {
+    top: 14px;
+    left: -14px;
+    background-position: -100px -300px;
+    height: 104px;
+    -webkit-transform: translateX(-60px);
+    -moz-transform: translateX(-60px);
+    -ms-transform: translateX(-60px);
+    -o-transform: translateX(-60px);
+    transform: translateX(-60px)
+}
+
+.qmSceneWrap .point.smz .pointIcon {
+    top: -25px;
+    left: 25px;
+    background-position: 0 -60px
+}
+
+.qmSceneWrap .point.smz .guangxiao {
+    left: 20px;
+    bottom: 7px
+}
+
+.qmSceneWrap .point.smz .guangxiao_h {
+    left: -10px;
+    bottom: -40px
+}
+
+.qmSceneWrap .point.jyh {
+    top: 119px;
+    left: 1448px;
+    width: 132px;
+    height: 134px
+}
+
+.qmSceneWrap .point.jyh .pointCon {
+    background: url(./img/jyh_3edb535.png) 0 0 no-repeat
+}
+
+.qmSceneWrap .point.jyh .pointInfo {
+    top: 5px;
+    left: 100px;
+    background-position: 0 -300px;
+    height: 104px;
+    -webkit-transform: translateX(60px);
+    -moz-transform: translateX(60px);
+    -ms-transform: translateX(60px);
+    -o-transform: translateX(60px);
+    transform: translateX(60px)
+}
+
+.qmSceneWrap .point.jyh .pointIcon {
+    top: -10px;
+    left: 40px;
+    width: 48px;
+    height: 48px;
+    background-position: -97px -51px
+}
+
+.qmSceneWrap .point.jyh .guangxiao {
+    left: 24px;
+    bottom: 7px
+}
+
+.qmSceneWrap .point.jyh .guangxiao_h {
+    left: 0;
+    bottom: -40px
+}
+
+.qmSceneWrap .point.hlcs {
+    top: 514px;
+    left: 796px;
+    width: 185px;
+    height: 197px
+}
+
+.qmSceneWrap .point.hlcs .pointCon {
+    background: url(./img/hlcs_e01e0a8.png) 0 0 no-repeat;
+    height: 197px;
+    width: 185px;
+}
+
+.qmSceneWrap .point.hlcs .pointInfo {
+    top: 54px;
+    left: -3px;
+    background-position: -200px -150px;
+    height: 125px;
+    -webkit-transform: translateX(-60px);
+    -moz-transform: translateX(-60px);
+    -ms-transform: translateX(-60px);
+    -o-transform: translateX(-60px);
+    transform: translateX(-60px)
+}
+
+.qmSceneWrap .point.hlcs .pointIcon {
+    top: -16px;
+    left: 61px;
+    background-position: 0 -60px
+}
+
+.qmSceneWrap .point.hlcs .guangxiao {
+    left: 46px;
+    bottom: 7px
+}
+
+.qmSceneWrap .point.hlcs .guangxiao_h {
+    left: 18px;
+    bottom: -50px
+}
+
+.qmSceneWrap .point.xhl {
+    top: 465px;
+    left: 1014px;
+    width: 264px;
+    height: 198px;
+}
+
+.qmSceneWrap .point.xhl .pointCon {
+    background: url(./img/xhl_42e3081.png) 0 0 no-repeat;
+    -webkit-animation: xhl 1s steps(5) infinite 300ms 0 ease;
+    -moz-animation: xhl 1s steps(5) infinite 300ms 0 ease;
+    -ms-animation: xhl 1s steps(5) infinite 300ms 0 ease;
+    animation: xhl 1s steps(5) infinite 300ms 0 ease;
+    -moz-animation: xhl 1s steps(5) infinite;
+    -webkit-animation: xhl 1s steps(5) infinite;
+    -o-animation: xhl 1s steps(5) infinite;
+    -ms-animation: xhl 1s steps(5) infinite;
+    animation: xhl 1s steps(5) infinite;
+    width: 264px;
+    height: 198px;
+}
+
+.qmSceneWrap .point.xhl .pointInfo {
+    top: 54px;
+    left: 20px;
+    background-position: 0 0;
+    height: 104px;
+    -webkit-transform: translateX(-60px);
+    -moz-transform: translateX(-60px);
+    -ms-transform: translateX(-60px);
+    -o-transform: translateX(-60px);
+    transform: translateX(-60px)
+}
+
+.qmSceneWrap .point.xhl .pointIcon {
+    top: -18px;
+    left: 80px
+}
+
+.qmSceneWrap .point.xhl .guangxiao {
+    left: 78px;
+    bottom: 15px
+}
+
+.qmSceneWrap .point.xhl .guangxiao_h {
+    left: 56px;
+    bottom: -30px
+}
+
+.qmSceneWrap .point.bl {
+    top: 485px;
+    left: 1318px;
+    width: 121px;
+    height: 138px
+}
+
+.qmSceneWrap .point.bl .pointCon {
+    background: url(./img/bl_33b74b8.png) 0 0 no-repeat
+}
+
+.qmSceneWrap .point.bl .pointInfo {
+    top: 16px;
+    left: 107px;
+    background-position: -50px 0;
+    height: 104px;
+    -webkit-transform: translateX(60px);
+    -moz-transform: translateX(60px);
+    -ms-transform: translateX(60px);
+    -o-transform: translateX(60px);
+    transform: translateX(60px)
+}
+
+.qmSceneWrap .point.bl .pointIcon {
+    top: -20px;
+    left: 31px;
+    background-position: -60px 0
+}
+
+.qmSceneWrap .point.bl .guangxiao_h {
+    left: -8px;
+    bottom: -30px
+}
+
+.qmSceneWrap .point.ts {
+    top: 617px;
+    left: 2954px;
+    width: 135px;
+    height: 171px
+}
+
+.qmSceneWrap .point.ts .pointCon {
+    background: url(./img/ts_d4ae6fa.png) 0 0 no-repeat
+}
+
+.qmSceneWrap .point.ts .pointInfo {
+    top: 44px;
+    left: -22px;
+    background-position: -100px 0;
+    height: 77px;
+    -webkit-transform: translateX(-60px);
+    -moz-transform: translateX(-60px);
+    -ms-transform: translateX(-60px);
+    -o-transform: translateX(-60px);
+    transform: translateX(-60px)
+}
+
+.qmSceneWrap .point.ts .pointIcon {
+    top: -16px;
+    left: 30px;
+    background-position: 0 -60px
+}
+
+.qmSceneWrap .point.ts .guangxiao {
+    left: 24px;
+    bottom: 15px
+}
+
+.qmSceneWrap .point.ts .guangxiao_h {
+    left: 0;
+    bottom: -34px
+}
+
+.qmSceneWrap .point.wq {
+    top: 98px;
+    left: 3072px;
+    width: 111px;
+    height: 119px
+}
+
+.qmSceneWrap .point.wq .pointCon {
+    background: url(./img/wq_28de1b8.png) 0 0 no-repeat
+}
+
+.qmSceneWrap .point.wq .pointInfo {
+    top: 14px;
+    left: -8px;
+    background-position: -150px 0;
+    height: 77px;
+    -webkit-transform: translateX(-60px);
+    -moz-transform: translateX(-60px);
+    -ms-transform: translateX(-60px);
+    -o-transform: translateX(-60px);
+    transform: translateX(-60px)
+}
+
+.qmSceneWrap .point.wq .pointIcon {
+    top: -3px;
+    left: 40px;
+    width: 29px;
+    height: 29px;
+    background-position: -60px -60px
+}
+
+.qmSceneWrap .point.wq .guangxiao {
+    left: 10px;
+    bottom: 16px
+}
+
+.qmSceneWrap .point.wq .guangxiao_h {
+    left: -12px;
+    bottom: -20px
+}
+
+.qmSceneWrap .point.gxz {
+    top: 290px;
+    left: 3070px;
+    width: 90px;
+    height: 125px
+}
+
+.qmSceneWrap .point.gxz .pointCon {
+    background: url(./img/gxz_cac0b95.png) 0 0 no-repeat
+}
+
+.qmSceneWrap .point.gxz .pointInfo {
+    top: 19px;
+    left: -20px;
+    background-position: -200px 0;
+    height: 104px;
+    -webkit-transform: translateX(-60px);
+    -moz-transform: translateX(-60px);
+    -ms-transform: translateX(-60px);
+    -o-transform: translateX(-60px);
+    transform: translateX(-60px)
+}
+
+.qmSceneWrap .point.gxz .pointIcon {
+    top: -23px;
+    left: 27px;
+    width: 39px;
+    height: 39px;
+    background-position: -60px -89px
+}
+
+.qmSceneWrap .point.gxz .guangxiao_h {
+    left: -22px;
+    bottom: -40px
+}
+
+.qmSceneWrap .point.qss {
+    top: 188px;
+    left: 3201px;
+    width: 102px;
+    height: 144px
+}
+
+.qmSceneWrap .point.qss .pointCon {
+    background: url(./img/qss_96514d7.png) 0 0 no-repeat
+}
+
+.qmSceneWrap .point.qss .pointInfo {
+    top: 17px;
+    left: 83px;
+    background-position: 0 -150px;
+    height: 104px;
+    -webkit-transform: translateX(60px);
+    -moz-transform: translateX(60px);
+    -ms-transform: translateX(60px);
+    -o-transform: translateX(60px);
+    transform: translateX(60px)
+}
+
+.qmSceneWrap .point.qss .pointIcon {
+    top: -16px;
+    left: 33px;
+    width: 39px;
+    height: 39px;
+    background-position: -60px -89px
+}
+
+.qmSceneWrap .point.qss .guangxiao {
+    left: 5px;
+    bottom: 10px
+}
+
+.qmSceneWrap .point.qss .guangxiao_h {
+    left: -18px;
+    bottom: -30px
+}
+
+.qmSceneWrap .point.smt {
+    top: 592px;
+    left: 3370px;
+    width: 104px;
+    height: 123px
+}
+
+.qmSceneWrap .point.smt .pointCon {
+    background: url(https://n.res.netease.com/pc/gw/20170519160637/img/smt_c430755.png) 0 0 no-repeat
+}
+
+.qmSceneWrap .point.smt .pointInfo {
+    top: 21px;
+    left: -19px;
+    background-position: -50px -150px;
+    height: 104px;
+    -webkit-transform: translateX(60px);
+    -moz-transform: translateX(60px);
+    -ms-transform: translateX(60px);
+    -o-transform: translateX(60px);
+    transform: translateX(60px)
+}
+
+.qmSceneWrap .point.smt .pointIcon {
+    top: -22px;
+    left: 26px;
+    background-position: -60px 0
+}
+
+.qmSceneWrap .point.smt .guangxiao {
+    top: 27px;
+    left: 19px
+}
+
+.qmSceneWrap .point.smt .guangxiao_h {
+    left: -18px;
+    bottom: -20px
+}
+
+.qmSceneWrap .point.lx {
+    top: 578px;
+    left: 3660px;
+    width: 127px;
+    height: 184px
+}
+
+.qmSceneWrap .point.lx .pointCon {
+    background: url(./img/lx_feb93a0.png) 0 0 no-repeat
+}
+
+.qmSceneWrap .point.lx .pointInfo {
+    top: 58px;
+    left: -21px;
+    background-position: -100px -150px;
+    height: 77px;
+    -webkit-transform: translateX(-60px);
+    -moz-transform: translateX(-60px);
+    -ms-transform: translateX(-60px);
+    -o-transform: translateX(-60px);
+    transform: translateX(-60px)
+}
+
+.qmSceneWrap .point.lx .pointIcon {
+    top: -17px;
+    left: 31px;
+    background-position: 0 -60px
+}
+
+.qmSceneWrap .point.lx .guangxiao {
+    left: 10px;
+    bottom: 14px
+}
+
+.qmSceneWrap .point.lx .guangxiao_h {
+    left: -10px;
+    bottom: -36px
+}
+
+.qmSceneWrap .point.zm {
+    top: 124px;
+    left: 3946px;
+    width: 93px;
+    height: 122px;
+}
+
+.qmSceneWrap .point.zm .pointCon {
+    background: url(./img/zm_597e9a9.png) 0 0 no-repeat;
+}
+
+.qmSceneWrap .point.zm .pointInfo {
+    top: 12px;
+    left: -11px;
+    background-position: -150px -150px;
+    height: 77px;
+    -webkit-transform: translateX(-60px);
+    -moz-transform: translateX(-60px);
+    -ms-transform: translateX(-60px);
+    -o-transform: translateX(-60px);
+    transform: translateX(-60px);
+}
+
+.qmSceneWrap .point.zm .pointIcon {
+    top: 2px;
+    left: 32px;
+    width: 29px;
+    height: 29px;
+    background-position: -60px -60px;
+}
+
+.qmSceneWrap .point.zm .guangxiao {
+    left: 2px;
+    bottom: 12px;
+}
+
+.qmSceneWrap .point.zm .guangxiao_h {
+    left: -25px;
+    bottom: -30px;
+}
+
+.qmSceneWrap .point:hover .pointCon {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.qmSceneWrap .point:hover .pointIcon {
+    display: none;
+}
+
+.qmSceneWrap .point:hover .guangxiao {
+    display: none;
+}
+
+.qmSceneWrap .point:hover .guangxiao_h {
+    display: block;
+}
+
+.qmSceneWrap .moveHandler {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 20%
+}
+
+.qmSceneWrap .leftMoveHandler {
+    left: 0;
+}
+
+.qmSceneWrap .rightMoveHandler {
+    right: 0;
+}
+
+.qmSceneWrap .homeLogoWrap {
+    position: fixed;
+    top: 151px;
+    left: 124px;
+    width: 413px;
+    height: 328px;
+    z-index: 11;
+}
+
+.qmSceneWrap .homeLogoWrap .logo {
+    position: absolute;
+    width: 413px;
+    height: 191px;
+    top: 0;
+    left: 0;
+    background: url(./img/homeLogo_dc181a3.png) 0 0 no-repeat;
+}
+
+.qmSceneWrap .homeLogoWrap .staticVideoWrap {
+    position: absolute;
+    top: 178px;
+    left: 62px;
+    width: 260px;
+    height: 150px;
+    cursor: pointer;
+    background: url(./img/staticVideoBg_4ab9bc4.png) 0 0 no-repeat;
+}
+
+.qmSceneWrap .homeLogoWrap .staticVideoWrap:hover .videoBg {
+    -moz-opacity: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.qmSceneWrap .homeLogoWrap .staticVideoBg, .qmSceneWrap .homeLogoWrap .staticVideo {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    width: 240px;
+    height: 135px;
+}
+
+.qmSceneWrap .homeLogoWrap .staticVideoBg {
+    display: none;
+    background: url(https://n.res.netease.com/pc/gw/20170519160637/img/staticVideoBg_1ca578e.webp) 0 0 no-repeat;
+}
+
+.qmSceneWrap .homeLogoWrap .videoBg {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    width: 240px;
+    height: 135px;
+    background-color: #000;
+    opacity: .5;
+}
+
+.qmSceneWrap .homeLogoWrap .staticVideoBtn {
+    position: absolute;
+    top: 43px;
+    left: 122px;
+    width: 39px;
+    height: 65px;
+    background: url(./img/staticVideoBtn_b0b9c1b.png) 0 0 no-repeat
+}
+
+.qmSceneWrap .homeLogoWrap .bgMusicBtn {
+    position: absolute;
+    top: 145px;
+    left: 260px;
+    width: 28px;
+    height: 28px;
+    background: url("./img/homeAudioBtn_92cfd69.png") 0 0 no-repeat;
+    animation: homeAudioBtn 1s steps(4) infinite;
+}
+.qmSceneWrap .homeLogoWrap .bgMusicBtn.stop {
+    background-position: -62px 0;
+    -webkit-animation: none 300ms 0 ease;
+    -moz-animation: none 300ms 0 ease;
+    -ms-animation: none 300ms 0 ease;
+    animation: none 300ms 0 ease;
+    -moz-animation: none;
+    -webkit-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+}
+.qmSceneWrap .homeLogoWrap .bgMusicBtn:hover {
+    background-position-x: -32px;
+}
+#toLeftBtn {
+    top: 360px;
+    left: 74px;
+    background: url(./img/directionBtn_62030dd.png) 0 0 no-repeat;
+    animation: toLeftBtn 1s ease-in-out infinite;
+}
+
+#toRightBtn {
+    top: 360px;
+    right: 74px;
+    background: url(./img/directionBtn_62030dd.png) -94px 0 no-repeat;
+    animation: toRightBtn 1s ease-in-out infinite;
+}
+#toLeftBtn:hover {
+        background-position: 0 -111px;
+}
+#toRightBtn:hover {
+    background-position:-94px -111px;
+}
+.qmSceneWrap .directionBtn {
+    position: fixed;
+    width: 82px;
+    height: 100px;
+    z-index: 99;
+}
+.shouye {
+    position: fixed;
+    right: 0;
+    bottom: 60px;
+    width: 54px;
+    height: 155px;
+    background: url(./img/forumBtn_2a1b1dc.png) 0 0 no-repeat;
+    z-index: 14;
+}
+.shouye:hover{
+    background-position: -60px 0;
+}

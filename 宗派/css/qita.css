@@ -1,0 +1,450 @@
+/* 初始化代码 */
+
+body,
+div,
+span,
+p,
+img,
+input,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+a,
+strong,
+em,
+del,
+i,
+ins {
+    margin: 0;
+    padding: 0;
+    /* 清除标签的默认内外边距 */
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    /* display: block; */
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    min-width: 1400px;
+    max-width: 1920px;
+    height: auto;
+    font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+    background: #fff;
+    line-height: 1.5;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.wrap {
+    background: #000;
+    max-width: 1920px;
+    position: relative;
+    height: 1080px;
+    overflow: hidden;
+}
+.main, .main-box {
+    width: 1564px;
+    height: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrap .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    width: 81px;
+    height: 181px;
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/logo_6192982.png) no-repeat;
+}
+a, button {
+    cursor: pointer;
+    text-align: center;
+}
+.wrap .btn-box {
+    position: absolute;
+    z-index: 2;
+    left: 35px;
+    top: 215px;
+    width: 32px;
+}
+.wrap .btn-box .go-index {
+    background-position-y: 0;
+}
+.wrap .btn-box>a {
+    display: inline-block;
+    margin-bottom: 12px;
+    width: 32px;
+    height: 32px;
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/index-icon_1f28e14.png) no-repeat;
+}
+.wrap .btn-box .share-btn {
+    background-position-y: -43px;
+}
+.wrap .btn-box>a {
+    display: inline-block;
+    margin-bottom: 12px;
+    width: 32px;
+    height: 32px;
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/index-icon_1f28e14.png) no-repeat;
+}
+.wrap .nav {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    top: 315px;
+}
+.wrap .nav .nav1 {
+    width: 118px;
+    background-position: 0 0;
+}
+
+element.style {
+}
+.wrap .nav .nav1 {
+    width: 118px;
+    background-position: 0 0;
+}
+.wrap .nav a {
+    display: block;
+    height: 26px;
+    width: 72px;
+    margin-bottom: 22px;
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/main-nav_5a72013.png) no-repeat;
+}
+.wrap .nav .nav2 {
+    background-position: 0 -48px;
+}
+.wrap .nav .nav2:hover, .wrap .nav .nav2.active {
+    background-position-y: -48px;
+}
+
+.wrap .nav a:hover, .wrap .nav a.active {
+    height: 26px;
+    width: 149px;
+    background-position-x: right;
+}
+.wrap .nav .nav3 {
+    background-position: 0 -98px;
+}
+.wrap .nav .nav4 {
+    background-position: 0 -148px;
+}
+.wrap .nav .nav5 {
+    background-position: 0 -198px;
+}
+.wrap .nav .nav6 {
+    background-position: 0 -248px;
+}
+.wrap .nav .nav7 {
+    background-position: 0 -298px;
+}
+.wrap .show {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 1080px;
+    perspective: 1080px;
+}
+.show {
+    display: block;
+}
+.wrap .show>div {
+    position: absolute;
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+    height: 100%;
+}
+.wrap .xh {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/xuehe-bg_b7e8f8d.jpg) no-repeat center top;
+}
+.wrap .sw {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/suwen-bg_9b31741.jpg) no-repeat center top;
+}
+.hide {
+    display: none;
+}
+.wrap .jl {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/jiuling-bg_69e4c6e.jpg) no-repeat center top;
+}
+.wrap .sm {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/suimeng-bg_cf336c3.jpg) no-repeat center top;
+}
+.wrap .sx {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/shenxiang-bg_689e69d.jpg) no-repeat center top;
+}
+.wrap .ty {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/tieyi-bg_96e3716.jpg) no-repeat center top;
+}
+.main, .main-box {
+    width: 1564px;
+    height: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrap .show .video-wrap {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 0;
+}
+.wrap .xh .video {
+    left: 970px;
+    top: 258px;
+}
+.wrap .sw .video {
+    left: 900px;
+    top: 305px;
+}
+.wrap .jl .video {
+    left: 1115px;
+    top: 305px;
+}
+.wrap .sm .video {
+    top: 330px;
+    left: 920px;
+}
+.wrap .sx .video {
+    left: 1060px;
+    top: 250px;
+}
+.wrap .ty .video {
+    left: 900px;
+    top: 250px;
+}
+.wrap .show .video {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: 1;
+    -moz-animation: slideLeft .5s ease both;
+    -webkit-animation: slideLeft .5s ease both;
+    -o-animation: slideLeft .5s ease both;
+    -ms-animation: slideLeft .5s ease both;
+    animation: slideLeft .5s ease both;
+}
+.wrap .show .video .video_bor {
+    width: 88px;
+    height: 88px;
+    overflow: hidden;
+    -webkit-mask-image: -webkit-radial-gradient(circle,#fff 100%,#000 100%);
+    -webkit-transform: rotate(0.000001deg);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: 16px;
+}
+.wrap .show .cover {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/video_a3885d9.png) no-repeat;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -moz-animation: scale 2s ease infinite;
+    -webkit-animation: scale 2s ease infinite;
+    -o-animation: scale 2s ease infinite;
+    -ms-animation: scale 2s ease infinite;
+    animation: scale 2s ease infinite;
+    cursor: pointer;
+}
+.wrap .show .video video {
+    height: 140%;
+    margin-left: -60px;
+    overflow: hidden;
+    margin-top: -20px;
+}
+.wrap .xh .name {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/xuehe-name_81c3734.png) no-repeat;
+    width: 433px;
+    height: 513px;
+    left: 900px;
+    top: 20px;
+}
+.wrap .sw .name {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/suwen-name_ba34f19.png) no-repeat;
+    width: 313px;
+    height: 456px;
+    left: 684px;
+    top: 25px;
+}
+.wrap .jl .name {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/jiuling-name_236141b.png) no-repeat;
+    width: 310px;
+    height: 439px;
+    left: 944px;
+    top: 32px;
+}
+.wrap .sm .name {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/suimeng-name_b6779e2.png) no-repeat;
+    width: 292px;
+    height: 485px;
+    left: 733px;
+    top: 40px;
+}
+.wrap .sx .name {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/shenxiang-name_9a85a35.png) no-repeat;
+    width: 313px;
+    height: 453px;
+    left: 775px;
+    top: 36px;
+}
+.wrap .ty .name {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/tieyi-name_bdf665f.png) no-repeat;
+    width: 374px;
+    height: 405px;
+    left: 668px;
+    top: 29px;
+}
+.wrap .show .name {
+    position: absolute;
+    -moz-animation: boom .2s .5s ease both;
+    -webkit-animation: boom .2s .5s ease both;
+    -o-animation: boom .2s .5s ease both;
+    -ms-animation: boom .2s .5s ease both;
+    animation: boom .2s .5s ease both;
+}
+.wrap .xh .school {
+    left: 925px;
+    top: 55px;
+    background-position: -154px 0;
+}
+.wrap .sw .school {
+    left: 752px;
+    top: 35px;
+    background-position: 0 0;
+}
+.wrap .jl .school {
+    left: 902px;
+    top: 48px;
+    background-position: 0 0;
+}
+.wrap .sm .school {
+    left: 715px;
+    top: 43px;
+    background-position: -104px 0;
+}
+.wrap .sx .school {
+    left: 789px;
+    top: 61px;
+    background-position: -53px 0;
+}
+.wrap .ty .school {
+    left: 710px;
+    top: 38px;
+    background-position: -154px 0;
+}
+.wrap .show .school {
+    position: absolute;
+    width: 33px;
+    height: 150px;
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/school_4771241.png) no-repeat;
+    -moz-animation: slideTop .5s ease both;
+    -webkit-animation: slideTop .5s ease both;
+    -o-animation: slideTop .5s ease both;
+    -ms-animation: slideTop .5s ease both;
+    animation: slideTop .5s ease both;
+}
+.wrap .xh .ability {
+    left: 950px;
+    top: 454px;
+    background-position: -442px 0;
+}
+.wrap .sw .ability {
+    left: 865px;
+    top: 446px;
+    background-position: -882px 0;
+}
+.wrap .jl .ability {
+    left: 1088px;
+    top: 438px;
+    background-position: -222px 0;
+}
+.wrap .sm .ability {
+    left: 861px;
+    top: 460px;
+    background-position: -1098px 0;
+}
+.wrap .sx .ability {
+    left: 1018px;
+    top: 403px;
+    background-position: -663px 0;
+}
+.wrap .ty .ability {
+    left: 854px;
+    top: 404px;
+    background-position: 0 0;
+}
+.wrap .show .ability {
+    position: absolute;
+    width: 198px;
+    height: 501px;
+    -moz-animation: slideBot .5s ease both;
+    -webkit-animation: slideBot .5s ease both;
+    -o-animation: slideBot .5s ease both;
+    -ms-animation: slideBot .5s ease both;
+    animation: slideBot .5s ease both;
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/ability_46c0bc5.png) no-repeat;
+}
+.wrap .xh .person {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/xuehe-person_97f1436.png) no-repeat;
+}
+.wrap .sw .person {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/suwen-person_f6a55df.png) no-repeat;
+}
+.wrap .jl .person {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/jiuling-person_b246b97.png) no-repeat;
+}
+.wrap .sm .person {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/suimeng-person_4685044.png) no-repeat;
+}
+.wrap .sx .person {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/shenxiang-person_eb6651f.png) no-repeat;
+}
+.wrap .ty .person {
+    background: url(https://n.res.netease.com/pc/zt/20180621163536//img/job/tieyi-person_640c50e.png) no-repeat;
+}
+.wrap .show .person {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}

@@ -1,0 +1,721 @@
+/*新手村初始化代码*/
+body,
+div,
+p,
+span,
+img,
+input,
+a,
+i,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/pc_bck.jpg") no-repeat top center;
+    color: #62a1c9;
+}
+
+img {
+    border: none;;
+    vertical-align: middle;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #62a1c9;
+}
+
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+.w {
+    width: 1215px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: ".";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    display: block;
+}
+.clearfix {
+    *zoom: 1;
+}
+/*header部分的css代码*/
+.header .target a {
+    float: right;
+    margin: 10px;
+}
+
+/*nav部分的css代码*/
+
+.main .newbieMain {
+    margin-top: 440px;
+}
+.nav {
+    height: 340px;
+    /* background-color: orange; */
+    margin-bottom: 30px;
+}
+.nav .title {
+    height: 76px;
+}
+.nav .title img {
+    float: left;
+}
+.navList li {
+    float: left;
+    margin-right: 5px;
+}
+.navList li .QRcodeNews {
+    display: none;
+}
+
+
+.recommend {
+    height: 608px;
+}
+.recommend .title {
+    height: 76px;
+}
+.recommend .title img {
+    float: left;
+}
+.recommend .content {
+    height: 530px;
+    /*background-color: deepskyblue;*/
+    position: relative;
+}
+.recommend .content .leftList {
+    position: absolute;
+    width: 182px;
+    height: 333px;
+    top: 20px;
+    left: 0;
+    z-index: 999;
+}
+.recommend .content .leftList li {
+    font-size: 24px;
+    margin: 10px 0 ;
+    width: 182px;
+    line-height: 48px;
+    text-align: center;
+}
+.recommend .content .leftList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.recommend .content .mainContent {
+    height: 530px;
+    position: relative;
+}
+.recommend .content .QRcode {
+    width: 124px;
+    height: 260px;
+    position: absolute;
+    right: -115px;
+    top: 0;
+}
+    /*.......................碎梦部分.................................*/
+.recommend .content .mainContent .ck {
+    position: absolute;
+    height: 510px;
+    top: 0px;
+    background-color: #fff;
+    overflow: hidden;
+    display: block;
+}
+.mainContent .ck .ckContentBg {
+    width: 1200px;
+    height: 510px;
+    background: url("images/sm_bck.png") no-repeat;
+    background-size: 100%;
+}
+
+.mainContent .ck .ckCharacter {
+    position: absolute;
+    width: 438px;
+    height: 483px;
+    top: 27px;
+    left: 50px;
+    background:url("images/smr_bck.png") no-repeat;
+    background-size: 100%;
+}
+.mainContent .ck .ckCharConst {
+    width: 399px;
+    height: 311px;
+    position: absolute;
+    top: 115px;
+    left: 488px;
+}
+.ck .ckContentBg .ckCharConst .ckCharName{
+    background: url("images/ck.png") no-repeat;
+    display: block;
+    width: 117px;
+    height: 59px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.ck .ckContentBg .ckCharConst p {
+    color: #fff;
+    font-weight: bold;
+}
+.ck .ckContentBg .ckCharConst .ckCharBgTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+}
+.ck .ckContentBg .ckCharConst .ckStrategyTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.ck .ckContentBg .ckCharConst .ckStrategy a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.ck .ckContentBg .ckVerdict {
+    background: url("images/smjs_bck.png") no-repeat;
+    width: 254px;
+    height: 423px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.active {
+    background: url("images/p_bck.png");
+    background-size: 100% 100%;
+    width: 182px;
+    height: 48px;
+    color:#fff;
+}
+/*.......................血河部分.................................*/
+
+.recommend .content .mainContent .xh {
+    position: absolute;
+    height: 510px;
+    top: 0px;
+    overflow: hidden;
+    display: none;
+}
+.mainContent .xh .xhContentBg {
+    width: 1200px;
+    height: 510px;
+    background: url("images/xh_bck.png") no-repeat;
+    background-size: 100%;
+}
+
+.mainContent .xh .xhCharacter {
+    position: absolute;
+    width: 606px;
+    height: 505px;
+    top: 27px;
+    left: 50px;
+    background:url("images/xhr_bck.png") no-repeat;
+    background-size: 100% 100%;
+}
+.mainContent .xh .xhCharConst {
+    width: 399px;
+    height: 311px;
+    position: absolute;
+    top: 175px;
+    left: 520px;
+}
+.xh .xhContentBg .xhCharConst .xhCharName{
+    background: url("images/zs.png") no-repeat;
+    display: block;
+    width: 117px;
+    height: 59px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+.xh .xhContentBg .xhCharConst p {
+    color: #fff;
+    font-weight: bold;
+}
+.xh .xhContentBg .xhCharConst .xhCharBgTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+}
+.xh .xhContentBg .xhCharConst .xhStrategyTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+.xh .xhContentBg .xhCharConst .xhStrategy a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.xh .xhContentBg .xhVerdict {
+    background: url("images/xhjs_bck.png") no-repeat;
+    width: 254px;
+    height: 423px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+/*.......................铁衣部分.................................*/
+.recommend .content .mainContent .ty {
+    position: absolute;
+    height: 510px;
+    top: 0px;
+    overflow: hidden;
+    display: none;
+}
+.mainContent .ty .tyContentBg {
+    width: 1200px;
+    height: 510px;
+    background: url("images/ty_bck.png") no-repeat;
+    background-size: 100%;
+}
+.mainContent .ty .tyCharacter {
+    position: absolute;
+    width: 343px;
+    height: 482px;
+    top: 27px;
+    left: 150px;
+    background:url("images/tyr_bck.png") no-repeat;
+    background-size: 100% 100%;
+}
+.mainContent .ty .tyCharConst {
+    width: 399px;
+    height: 311px;
+    position: absolute;
+    top: 140px;
+    left: 480px;
+}
+.ty .tyContentBg .tyCharConst .tyCharName{
+    background: url("images/tk.png") no-repeat;
+    display: block;
+    width: 117px;
+    height: 59px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.ty .tyContentBg .tyCharConst p {
+    color: #fff;
+    font-weight: bold;
+}
+.ty .tyContentBg .tyCharConst .tyCharBgTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+}
+.ty .tyContentBg .tyCharConst .tyStrategyTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+.ty .tyContentBg .tyCharConst .tyStrategy a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.ty .tyContentBg .tyVerdict {
+    background: url("images/tyjs_bck.png") no-repeat;
+    width: 277px;
+    height: 345px;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+/*.......................素问部分.......................*/
+.recommend .content .mainContent .sw {
+    position: absolute;
+    height: 510px;
+    top: 0px;
+    overflow: hidden;
+    display: none;
+}
+.mainContent .sw .swContentBg {
+    width: 1200px;
+    height: 510px;
+    background: url("images/sw_bck.png") no-repeat;
+    background-size: 100%;
+}
+.mainContent .sw .swCharacter {
+    position: absolute;
+    width: 461px;
+    height: 482px;
+    top: 45px;
+    left: 0px;
+    background:url("images/swr_bck.png") no-repeat;
+    background-size: 100% 100%;
+}
+.mainContent .sw .swCharConst {
+    width: 399px;
+    height: 311px;
+    position: absolute;
+    top: 140px;
+    left: 460px;
+}
+.sw .swContentBg .swCharConst .swCharName{
+    background: url("images/zl.png") no-repeat;
+    display: block;
+    width: 117px;
+    height: 59px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.sw .swContentBg .swCharConst p {
+    color: #fff;
+    font-weight: bold;
+}
+.sw .swContentBg .swCharConst .swCharBgTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+}
+.sw .swContentBg .swCharConst .swStrategyTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+.sw .swContentBg .swCharConst .swStrategy a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.sw .swContentBg .swVerdict {
+    background: url("images/swjs_bck.png") no-repeat;
+    width: 277px;
+    height: 345px;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+/*.......................九灵部分.......................*/
+.recommend .content .mainContent .jl {
+    position: absolute;
+    height: 510px;
+    top: 0px;
+    overflow: hidden;
+    display: none;
+}
+.mainContent .jl .jlContentBg {
+    width: 1200px;
+    height: 510px;
+    background: url("images/jl_bck.png") no-repeat;
+    background-size: 100%;
+}
+.mainContent .jl .jlCharacter {
+    position: absolute;
+    width: 644px;
+    height: 862px;
+    top: -10px;
+    left: -20px;
+    background:url("images/jlr_bck.png") no-repeat;
+    background-size: 100% 100%;
+}
+.mainContent .jl .jlCharConst {
+    width: 399px;
+    height: 311px;
+    position: absolute;
+    top: 145px;
+    left: 577px;
+}
+.jl .jlContentBg .jlCharConst .jlCharName{
+    background: url("images/zh.png") no-repeat;
+    display: block;
+    width: 117px;
+    height: 59px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.jl .jlContentBg .jlCharConst p {
+    color: #fff;
+    font-weight: bold;
+}
+.jl .jlContentBg .jlCharConst .jlCharBgTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+}
+.jl .jlContentBg .jlCharConst .jlStrategyTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+.jl .jlContentBg .jlCharConst .jlStrategy a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.jl .jlContentBg .jlVerdict {
+    background: url("images/jljs_bck.png") no-repeat;
+    width: 277px;
+    height: 345px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+/*.....................神相部分................*/
+.recommend .content .mainContent .sx {
+    position: absolute;
+    height: 510px;
+    top: 0px;
+    overflow: hidden;
+    display: none;
+}
+.mainContent .sx .sxContentBg {
+    width: 1200px;
+    height: 510px;
+    background: url("images/ss_bck.png") no-repeat;
+    background-size: 100%;
+}
+.mainContent .sx .sxCharacter {
+    position: absolute;
+    width: 613px;
+    height: 469px;
+    top: 45px;
+    left: 0px;
+    background:url("images/ssr_bck.png") no-repeat;
+    background-size: 100% 100%;
+}
+.mainContent .sx .sxCharConst {
+    width: 399px;
+    height: 311px;
+    position: absolute;
+    z-index: 3;
+    top: 150px;
+    left: 560px;
+}
+.sx .sxContentBg .sxCharConst .sxCharName{
+    background: url("images/ss.png") no-repeat;
+    display: block;
+    width: 117px;
+    height: 59px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.sx .sxContentBg .sxCharConst p {
+    color:#727271;
+    font-weight: bold;
+}
+.sx .sxContentBg .sxCharConst .sxCharBgTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+}
+.sx .sxContentBg .sxCharConst .sxStrategyTitle {
+    color: #f4e4a6;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f4e4a6;
+    margin-bottom: 10px;
+    margin-top: 45px;
+}
+.sx .sxContentBg .sxCharConst .sxStrategy a {
+    color: #727271;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.sx .sxContentBg .sxVerdict {
+    background: url("images/ssjs_bck.png") no-repeat;
+    width: 713px;
+    height: 433px;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+.featurePlay {
+    width: 1204px;
+    height: 633px;
+    /* background-color: orange; */
+}
+.featurePlay .title {
+    background: url("images/title3.png") no-repeat;
+    width: 171px;
+    height: 71px;
+    margin-top: 20px;
+}
+.featurePlay .playContent {
+    background: url("images/box3_bck.jpg") no-repeat;
+    height: 538px;
+    position: relative;
+}
+.featurePlay .playContent .playa,
+.featurePlay .playContent .playb {
+    width: 100%;
+    height: 237px;
+}
+.playContent .playStyle {
+    position: relative;
+    width: 183px;
+    height: 183px;
+    display: inline-block;
+    margin: 27px 25px;
+    transition: border-color 0.4s, color 0.4s;
+}
+.playContent .playStyle::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 1;
+    opacity: 0;
+    background-color: rgba(225, 225, 225, 0.5);
+    transition: all 0.4s;
+    width: 130px;
+    height: 130px;
+    margin: 23px 23px;
+    transform: rotate(0deg);
+}
+.playContent .playStyle:hover::before {
+	opacity: 1;
+	/* -webkit-transform: rotate(45deg); */
+	transform: rotate(45deg);
+} 
+.theForces {
+    height: 729px;
+}
+.theForces .title {
+    background: url("images/title4.png") no-repeat;
+    width: 171px;
+    height: 71px;
+    margin-top: 10px;
+}
+.theForces .twoForces .forcesLeft {
+    margin-right: 55px;
+}
+.pictureShow {
+    height: 550px;
+}
+.pictureShow .mainTitle {
+    height: 91px;
+}
+.pictureShow .mainTitle .title {
+    float: left;
+    background: url("images/title5.png") no-repeat;
+    width: 171px;
+    height: 71px;
+    margin-top: 10px;
+}
+.pictureShow .mainTitle .morePictures a{
+    float: right;
+    background: url("images/see.png");
+    width: 80px;
+    height: 15px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.pictureShow .show {
+    height: 350px;
+    position: relative;
+}
+.pictureShow .show img {
+    float: left;
+    width: 395px;
+    height: 215px;
+    margin-right: 10px;
+    position: absolute;
+}
+.show .one {
+    width:395px;
+    top: 50px;
+    left: 410px;
+    opacity: 0.2;
+    z-index: 2
+}
+.show .two {
+    width: 395px;
+    top: 70px;
+    left: 25px;
+    opacity: 0.5;
+    z-index: 3
+}
+.show .three {
+    width: 395px;
+    top: 90px;
+    left: 130px;
+    opacity: 0.8;
+    z-index: 4
+}
+.show .four {
+    width: 395px;
+    top: 110px;
+    left: 410px;
+    opacity: 1;
+    z-index: 5;
+
+}
+.show .five {
+    width:395px;
+    top: 90px;
+    left: 670px;
+    opacity: 0.8;
+    z-index: 4;
+}
+.show .six {
+    width:395px;
+    top: 70px;
+    left: 800px;
+    opacity: 0.5;
+    z-index: 3;
+}
+.shadowb {
+    display: inline-block;
+    transition-duration: 0.3s;
+    transition-property: box-shaw;
+    transform: translateZ(0);
+    box-shaw: 0 0 1px rgba(0, 0, 0, 0);
+    margin-right: 3px;
+}
+.shadowb:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+

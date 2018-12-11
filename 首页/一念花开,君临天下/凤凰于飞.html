@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>一念花开,君临天下</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .boss {
+            width: 100%;
+            height: 1009px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box1 {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .box2 {
+            position: absolute;
+            width: 765px;
+            height: 740px;
+            right: 0px;
+            top: 0px;
+        }
+
+        .box3 {
+            position: absolute;
+            width: 893px;
+            height: 544px;
+            top: 465px;
+            left: 0;
+        }
+
+        .box4 {
+            position: absolute;
+            width: 811px;
+            height: 373px;
+            right: 0;
+            top: 670px;
+        }
+
+        .img1,
+        .img2 {
+            position: absolute;
+            /* 展开动画 */
+            transition: all 4s ease 0s;
+            /* 背景遮罩层展开尺寸为0px */
+            -webkit-mask-size: 0px;
+            -webkit-mask-repeat: no-repeat;
+            /* 从中间展开 */
+            -webkit-mask-position: center;
+            /* 背景遮罩层 */
+            -webkit-mask-image: url("./记-狠人-img/6_09ebb255.png");
+        }
+
+        .img1 {
+            transition: all 8s ease 0s;
+        }
+
+        /* 凤凰 */
+        .zangxian {
+            transition: all 6s ease 0s;
+            position: absolute;
+            left: 50%;
+            margin-left: -355px;
+            margin-top: 130px;
+            transform: rotate(60deg)
+        }
+
+        .center {
+            transition: all 10s ease 0s;
+            -webkit-mask-size: 0px;
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-position: center;
+            -webkit-mask-image: url("./记-狠人-img/6_09ebb255.png");
+        }
+
+        /* 避免使用 */
+        #logo {
+            position: fixed;
+            left: 50%;
+            top: 471px;
+            margin-left: -145px;
+            margin-top: -55px;
+            width: 230px;
+            height: 80px;
+            background: url("./记-狠人-img/header_z_d7cec79.png");
+            z-index: 99;
+        }
+    </style>
+</head>
+<!-- by Chen -->
+
+<body>
+    <div class="boss">
+        <a href="javascript:void(0)" style="position: absolute;; height: 100px; width: 100px;z-index: 99;" id="a"></a>
+        <div id="logo">
+        </div>
+        <div class="box1">
+            <img src="./记-狠人-img/left_top_24d94ce9.png" alt="" class="img1">
+            <img src="./记-狠人-img/left_top_hover_3f1c1a96.png" alt="" class="img2">
+        </div>
+        <div class="box2">
+            <img src="./记-狠人-img/right_top_072624ad.png" alt="" class="img1">
+            <img src="./记-狠人-img/right_top_hover_7220aed0.png" alt="" class="img2">
+        </div>
+        <div class="box3">
+            <img src="./记-狠人-img/left_bot_b4d400f0.png" alt="" class="img1">
+            <img src="./记-狠人-img/left_bot_hover_7c9298b9.png" alt="" class="img2">
+        </div>
+        <div class="box4">
+            <img src="./记-狠人-img/right_bot_e83998fc.png" alt="" class="img1">
+            <img src="./记-狠人-img/right_bot_hover_d63f9646.png" alt="" class="img2">
+        </div>
+        <div class="zangxian">
+            <div class="top">
+                <img src="./记-狠人-img/f1_cc6a5046.png" alt="" class="center">
+            </div>
+            <div class="bottom" style="margin-top:-30px">
+                <img src="./记-狠人-img/f2_af729a2f.png" alt="" class="center">
+            </div>
+        </div>
+    </div>
+    <!-- 背景音乐 -->
+    <embed src="./记-狠人-img/homePage_bgSource.mp3" type="" style="visibility: hidden; position: fixed;">
+</body>
+<script>
+    var img1 = document.getElementsByClassName("img1");
+    var img2 = document.getElementsByClassName("img2");
+    var zangxian = document.getElementsByClassName("zangxian")[0];
+    var center = document.getElementsByClassName("center");
+    var logo = document.getElementById("logo");
+    var a = document.getElementById('a');
+
+
+    window.onload = function () {
+        setTimeout(function () {
+            // 打开页面一秒收执行
+            zangxian.style.transform = "rotate(" + 0 + "deg)";
+            center[0].style.webkitMaskSize = 2200 + "px";
+            center[1].style.webkitMaskSize = 2200 + "px";
+            // 打开页面一秒后执行定时器
+            setTimeout(function () {
+                // 页面打开4秒后
+                for (var i = 0; i < img2.length; i++) {
+                    // 展开墨画
+                    img1[i].style.webkitMaskSize = 2200 + "px";
+                }
+                // 添加logo点击事件
+                logo.onclick = function () {
+                    for (var i = 0; i < img2.length; i++) {
+                        img2[i].style.webkitMaskSize = 2200 + "px";
+                    }
+                    setTimeout(function () {
+                        window.open("../逆水寒_homePage/homePage.html", "_blank") // 跳转链接及打开方式
+                    }, 3000) // 延迟时间
+                }
+                // 添加墨画移入移出事件
+                for (var i = 0; i < img2.length; i++) {
+                    img2[i].onmouseover = function () {
+                        this.style.webkitMaskSize = 2200 + "px";
+                    }
+                    img2[i].onmouseout = function () {
+                        this.style.webkitMaskSize = 0 + "px";
+                    }
+                }
+            }, 4000)
+        }, 1000)
+    }
+
+    window.onscroll = function () { 
+        // 滚动改变logo定位
+        logo.style.marginTop = -55 + -window.pageYOffset + "px";
+    }
+</script>
+
+</html>

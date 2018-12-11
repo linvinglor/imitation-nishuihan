@@ -1,0 +1,717 @@
+body,
+div,
+span,
+a,
+p,
+input,
+ul,
+li,
+i,
+img,
+em,
+strong,
+ins,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+input {
+    border: none;
+    outline: none;
+}
+li {
+    list-style: none;
+}
+i {
+    font-style: normal;
+}
+img {
+    border: none;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+}
+
+body {
+    font: 12px/100% "微软雅黑";
+    width: 100%;
+    min-width: 1400px;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: auto;
+    font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+    background: #fff;
+    line-height: 1.5;
+}
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+/* 主体开始 */
+.bigbox{
+    width: 1920px;
+    height: 1080px;
+     overflow: hidden;
+    position: relative;
+}
+.bigbox .box{
+    width: 300%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.video{
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    background: url("./bg3.jpg");
+    margin: 0 auto;
+    float: left;
+    display: none;
+}
+.logo {
+    padding: 12px 22px;
+    width: 104px;
+    float: left;
+}
+.logo a{
+    display: block;
+    width: 104px;
+    height: 213px;
+    background: url(./逆水寒.png);
+}
+.logo .icon{
+    width: 35px;
+    height: 200px;
+    margin: 0 auto;
+}
+.logo .icon .top a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(./图标.png) -1340px -528px;
+}
+.logo .icon .top a:hover{
+    background-position: -1375px -528px;
+}
+.logo .icon .bottom{
+    width: 35px;
+    height: 175px;
+}
+.logo .icon .bottom .link a{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    display: block;
+    background: url(./图标.png) -1410px -528px;
+}
+.logo .icon .bottom .link a:hover{
+    background-position: -1445px -528px;
+}
+.logo .icon .bottom ul{
+    width: 20px;
+    height: 120px;
+    margin: 5px auto;
+     display: none;
+}
+.logo .icon .bottom ul a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    background: url(./icon.v5.png) 0 -350px;
+}
+.logo .icon .bottom ul li:nth-child(2) a{
+    background: url(./icon.v5.png) 0 -325px;
+}
+.logo .icon .bottom ul li:nth-child(3) a{
+    background: url(./icon.v5.png) 0 -26px;
+}
+.logo .icon .bottom ul li:nth-child(4) a{
+    background: url(./icon.v5.png) 0 0;
+}
+
+
+.title{
+    width: 321px;
+    height: 49px;
+    position: absolute;
+    top: 110px;
+    left: 414px;
+    background: url(./游戏视频.png);
+}
+.subtitle{
+    position: absolute;
+    width: 214px;
+    height: 24px;
+    top: 161px;
+    left: 1120px;
+}
+.subtitle a{
+    float: left;
+    width: 92px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 6px;
+    color: #fff;
+}
+.border{
+    color: #f2e1c0;
+    border-bottom: 3px solid #a99752;
+}
+.subtitle .icon{
+    float: left;
+    width: 16px;
+    height: 9px;
+    margin-right: -6px;
+    margin-left: -6px;
+    margin-top: 10px;
+    background: url(./icon.png);
+}
+.content{
+    position: absolute;
+    width: 930px;
+    height: 638px;
+    top: 210px;
+    left: 422px;
+    overflow: hidden;
+    display: block;
+}
+.content li{
+    width: 300px;
+    height: 194px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+.content li:nth-child(3n){
+    margin-right: 0;
+}
+.content li a{
+    width: 300px;
+    height: 194px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+}
+.content li a img{
+    width: 300px;
+    display: block;
+}
+.content li a img:hover{
+    transform: scale(1.1);
+    transition: all 1s ease-out;
+}
+.content li a p{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 8px;
+}
+.content li a .yuan{
+    width: 108px;
+    height: 108px;
+    background: url(./图标.png);
+    background-position: -1220px -400px;
+    position: absolute;
+    top: 26px;
+    left: 98px;
+}
+.content-jn{
+    position: absolute;
+    width: 930px;
+    height: 638px;
+    top: 210px;
+    left: 422px;
+    overflow: hidden;
+    display: none;
+}
+.content-jn li{
+    width: 300px;
+    height: 194px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+.content-jn li:nth-child(3n){
+    margin-right: 0;
+}
+.content-jn li a{
+    width: 300px;
+    height: 194px;
+    position: absolute;
+    display: block;
+}
+.content-jn li a img{
+    width: 300px;
+    display: block;
+}
+.content-jn li a img:hover{
+    transform: scale(1.1);
+    transition: all 1s ease-out;
+}
+
+.content-jn li a p{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 8px;
+}
+.content-jn li a .yuan{
+    width: 108px;
+    height: 108px;
+    background: url(./图标.png);
+    background-position: -1220px -400px;
+    position: absolute;
+    top: 26px;
+    left: 98px;
+}
+
+.column a{
+    display: block;
+    width: 296px;
+    height: 1080px;
+    float: right;
+    background: url(./图标.png) -298px 0;
+}
+.column a:hover{
+    background-position: 0 0;
+}
+
+
+/* 入口页 */
+.bg{
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    float: left;
+    background-image: url('bg3.jpg');
+}
+.portal{
+    width: 100%;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+}
+.portal .sp{
+    position: absolute;
+    width: 1050px;
+    height: 1465px;
+    top: -250px;
+    left: -70px;
+    transform: rotate(10deg);
+    -webkit-transition: width .6s ease;
+    overflow: hidden;
+}
+.portal .tp{
+    position: absolute;
+    right: 760px;
+    width: 60%;
+    height: 100%;
+}
+#homeBgRight {
+    background: url('bg3.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 2400px;
+    height: 1350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.logintwo {
+    padding: 12px 22px;
+    width: 104px;
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    top: 0;
+}
+.logintwo a{
+    display: block;
+    width: 104px;
+    height: 213px;
+    background: url(./逆水寒.png);
+}
+.logintwo .icon{
+    width: 35px;
+    height: 200px;
+    margin: 0 auto;
+}
+.logintwo .icon .top a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(./图标.png) -1340px -528px;
+}
+.logintwo .icon .top a:hover{
+    background-position: -1375px -528px;
+}
+.logintwo .icon .bottom .link a{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    display: block;
+    background: url(./图标.png) -1410px -528px;
+}
+.logintwo .icon .bottom .link a:hover{
+    background-position: -1445px -528px;
+}
+.logintwo .icon .bottom ul{
+    width: 20px;
+    height: 120px;
+    margin: 5px auto;
+     display: none;
+}
+.logintwo .icon .bottom ul a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    background: url(./icon.v5.png) 0 -350px;
+}
+.logintwo .icon .bottom ul li:nth-child(2) a{
+    background: url(./icon.v5.png) 0 -325px;
+}
+.logintwo .icon .bottom ul li:nth-child(3) a{
+    background: url(./icon.v5.png) 0 -26px;
+}
+.logintwo .icon .bottom ul li:nth-child(4) a{
+    background: url(./icon.v5.png) 0 0;
+}
+
+.bg .left-sp{
+    width: 182px;
+    height: 90px;
+    position: absolute;
+    top: 150px;
+    left: 540px;
+}
+.bg .left-sp:hover{
+    left: 530px;
+}
+
+.bg .left-sp a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(./图标.png) -1238px -245px;
+}
+.bg .left-sp a .guanshang{
+    width: 105px;
+    height: 22px;
+    position: absolute;
+    background: url(./图标.png) -1200px -574px;
+    top: 50px;
+    left: 50px;
+}
+.portal {
+    cursor:pointer;
+}
+.bg .right-tp{
+    width: 182px;
+    height: 90px;
+    position: absolute;
+    right: 500px;
+    bottom: 360px;
+}
+.bg .right-tp:hover {
+    right: 490px;
+}
+.bg .right-tp a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(./图标.png) -1288px -58px;
+}
+.bg .right-tp a .chakan{
+    width: 105px;
+    height: 22px;
+    position: absolute;
+    background: url(./图标.png) -1348px -505px;
+    top: 50px;
+    left: 50px;
+}
+
+/* 第二页 */
+.picture{
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    margin: 0 auto;
+    background: url(./bg_bedb98d.jpg);
+    float: left;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.center{
+    display: none;
+}
+.login {
+    padding: 12px 22px;
+    width: 104px;
+    float: right;
+}
+.login a{
+    display: block;
+    width: 104px;
+    height: 213px;
+    background: url(./逆水寒.png);
+}
+.login .icon{
+    width: 35px;
+    height: 200px;
+    margin: 0 auto;
+}
+.login .icon .top a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(./图标.png) -1340px -528px;
+}
+.login .icon .top a:hover{
+    background-position: -1375px -528px;
+}
+.login .icon .bottom .link a{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    display: block;
+    background: url(./图标.png) -1410px -528px;
+}
+.login .icon .bottom .link a:hover{
+    background-position: -1445px -528px;
+}
+.login .icon .bottom ul{
+    width: 20px;
+    height: 120px;
+    margin: 5px auto;
+     display: none;
+}
+.login .icon .bottom ul a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    background: url(./icon.v5.png) 0 -350px;
+}
+.login .icon .bottom ul li:nth-child(2) a{
+    background: url(./icon.v5.png) 0 -325px;
+}
+.login .icon .bottom ul li:nth-child(3) a{
+    background: url(./icon.v5.png) 0 -26px;
+}
+.login .icon .bottom ul li:nth-child(4) a{
+    background: url(./icon.v5.png) 0 0;
+}
+
+
+
+.title-two{
+    width: 321px;
+    height: 49px;
+    position: absolute;
+    top: 110px;
+    left: 498px;
+    background: url(./title_71cbf98.png);
+}
+.subtitle-two{
+    position: absolute;
+    width: 390px;
+    height: 24px;
+    top: 161px;
+    left: 1048px;
+}
+.subtitle-two a{
+    float: left;
+    width: 92px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 6px;
+    color: #ffffff;
+}
+.subtitle-two a.active,
+.subtitle a.active{
+    color: #f2e1c0;
+    border-bottom: 3px solid #a99752;
+}
+.subtitle-two a:hover{
+    color: #f2e1c0;
+    border-bottom: 3px solid #a99752;
+}
+
+.subtitle-two .icon{
+    float: left;
+    width: 16px;
+    height: 9px;
+    margin-right: -6px;
+    margin-left: -6px;
+    margin-top: 10px;
+    background: url(./icon.png);
+}
+
+.content2{
+    position: absolute;
+    width: 930px;
+    height: 638px;
+    top: 210px;
+    left: 506px;
+    overflow: hidden;
+    display: block;
+}
+.content2 li{
+    width: 300px;
+    height: 155px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+    overflow: hidden;
+}
+.content  li div {
+    width: 300px;
+    height: 155px;
+    overflow: hidden;
+}
+.content2 li:nth-child(3n){
+    margin-right: 0;
+}
+.content2 li a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.content2 li a img{
+    width: 300px;
+}
+.content2 li a img:hover{
+    transform: scale(1.1);
+    transition: all 1s ease-out;
+}
+.content2 li a .iconico{
+    width: 75px;
+    height: 66px;
+    background: url("./图标.png") -1347px -378px;
+    position: absolute;
+    top: 50px;
+    left: 115px;
+    display: none;
+}
+.column2 a{
+    display: block;
+    width: 296px;
+    height: 1080px;
+    float: left;
+    background: url(./图标.png) -902px 0;
+}
+.column2 a:hover{
+    background-position: -600px 0;
+}
+
+.jiantou{
+    width: 70px;
+    height: 48px;
+    position: absolute;
+    left: 938px;
+    bottom: 164px;
+}
+.jiantou a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(./图标.png) -1270px -526px;
+}
+.jiantou a:hover{
+    background-position: -1200px -526px;
+}
+.dingbu{
+    width: 52px;
+    height: 46px;
+    position: absolute;
+    right: 410px;
+    bottom: 242px;
+}
+.dingbu a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(./图标.png) -1350px -450px;
+}
+.dingbu a:hover{
+    background-position: -1400px -450px;
+}
+
+/*底部*/
+.footer{
+    width: 1920px;
+    height: 73px;
+    background-color: #000;
+    margin: 0 auto;
+}
+.footer .saerch{
+    width: 874px;
+    height: 73px;
+    margin-left: 385px;
+}
+.footer .saerch .net{
+    width: 463px;
+    height: 100%;
+    float: left;
+}
+.footer .saerch .net a{
+    float: left;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+.footer .saerch .friendlink{
+    width: 411px;
+    height: 100%;
+    float: right;
+    line-height: 24px;
+    margin-top: 14px;
+}
+.footer .saerch .friendlink li{
+    float: left;
+    color: #fff;
+}
+.footer .saerch .friendlink li.bar{
+    margin: 0 3px;
+}
+.footer .saerch .friendlink li a{
+    color: #fff;
+}
+.footer .saerch .friendlink .copyright{
+    color: #fff;
+}
+#lianjie{
+    float: right;
+    background-color: #600100;
+    color: #fff;
+}

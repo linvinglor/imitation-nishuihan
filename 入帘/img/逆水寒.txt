@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html class="webp-hack">
+<head>
+    <meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--This is Git Project From N/n-gw-global_include_config(9177)-->
+<title>《逆水寒》官方网站 - 会呼吸的江湖 – 网易旗舰级武侠游戏！</title>
+	<meta name="from" content="git:N/n-fab-pc-20180615">
+<meta name="keywords" content="逆水寒、易水寒、激活码、逆水寒激活码、测试资格、逆水寒测试资格、全面内测、逆水寒全面内测、暑假测试、逆水寒暑假测试、资格申请、逆水寒资格申请、预约、逆水寒预约、公测、逆水寒公测、内测、逆水寒内测、开服、逆水寒开服、武侠、武侠大作、网易、最后一款端游、网易最后一款端游、新游戏、网易新游戏、网易新出游戏、网易新开的游戏、网易网络游戏、网游单机化、三清山、丁磊、四大名捕、戚少商、顾惜朝、叶弄舟、叶师兄、逆小寒、皮皮寒、赵二狗、职业、逆水寒职业、流派、逆水寒流派、攻略、逆水寒攻略、礼包、逆水寒礼包、逆水寒官网、逆水寒官博、逆水寒官微、逆水寒贴吧、逆水寒论坛、逆水寒爆料、周边、逆水寒周边、福利、逆水寒福利、发码、逆水寒发码、无码、无码江湖、逆水寒无码、清明上河图、千里江山图、客户端、逆水寒客户端、画面、逆水寒画面、角色、逆水寒角色、养老、养老游戏、捏脸、逆水寒捏脸、截图、逆水寒截图、视频、逆水寒视频、轻功、逆水寒轻功、风景、逆水寒风景、奇遇、逆水寒奇遇、程小东、逆水寒程小东、武指、武术指导、动作指导、技能、逆水寒技能、江湖、逆水寒江湖、会呼吸的江湖、旗舰、网易旗舰、温瑞安、唐诗逸、骆集益、国家舞蹈队、鸣玉集 、结婚、出家、治疗、昆仑、昆仑虚、柯暮卿、重剑、长剑、气剑、逆水寒新职业、逆水寒新流派、拿剑治疗、破浪而来、龙吟、怒涛中的剑影、怒涛、剑影、剑啸龙吟、谪仙岛">
+<meta name="description" content="网易旗舰级武侠游戏《逆水寒》，首个资料片“怒涛中的剑影”破浪而来，全新流派“龙吟”，更高武学境界。《逆水寒》集网易二十年自研颠峰实力班底打造而成，改编自武侠宗师温瑞安的名著《四大名捕》，武侠电影教父程小东出任动作指导。《逆水寒》讲述了北宋末年一段气壮山河的江湖大逃杀，并牵扯出神秘的朝廷阴谋与江湖纷争。《逆水寒》率先使用Enlighten全局光照系统、Havok粒子级物理引擎、实时动态天气系统等行业领先的研发技术，制作出了一个拥有高自由度游戏体验、画面风格自成一派、细节栩栩如生、万物皆有响应的会呼吸的江湖。玩家将能在《逆水寒》中享受到前所未有的充满惊喜与奇遇的沉浸式游戏体验。">
+<meta name="renderer" content="webkit">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="all">
+<meta name="author" content="网易，NetEase Inc.">
+<meta name="copyright" content="网易，NetEase Inc.">
+<meta name="front-end technicist" content="">
+<link rel="dns-prefetch" href="http://res.nie.netease.com">
+<!--[if lt IE 9]>
+<script src="https://nie.res.netease.com/comm/html5/html5shiv.js"></script>
+<![endif]-->
+<!-- jquery mix NIE (最新版本）-->
+<script src="https://nie.res.netease.com/comm/js/jquery(mixNIE).1.11.js"></script>
+    <link rel="stylesheet" data-webporiginal="https://n.res.netease.com/pc/fab/20180611110454/css/index_v2_e8df3d5.css" data-webpnew="https://n.res.netease.com/pc/fab/20180611110454/css/index_v2_e8df3d5_webp.css"><style>.webp-hack{display: none;}</style><script>!function(){function e(e,t){for(var i=t.length;i--;)!t[i].getAttribute(e)&&t[i].getAttribute(n)&&t[i].setAttribute(e,t[i].getAttribute(n))}function t(e){if(!(i.push(e)>1))if(o.addEventListener)o.addEventListener("DOMContentLoaded",function(){o.removeEventListener("DOMContentLoaded",arguments.callee,!1),e()},!1);else if(o.attachEvent){var t=!1;try{t=null==window.frameElement}catch(e){}o.documentElement.doScroll&&t&&function(){try{o.documentElement.doScroll("left"),e()}catch(e){setTimeout(arguments.callee,0)}}()}}var n,i=[],o=document;!function(e){var t=new Image;t.onload=function(){var n=t.width>0&&t.height>0;window.__isWebp=!0,e(n)},t.onerror=function(){window.__isWebp=!1,e(!1)},t.src="data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA=="}(function(i){n=i?"data-webpNew":"data-webpOriginal",e("href",document.getElementsByTagName("link")),t(function(){e("src",document.getElementsByTagName("img")),e("href",document.getElementsByTagName("link"))})})}();</script>
+</head>
+<body>
+    <!--主体-->
+    
+    <div id="loading">
+        <video class="bgv" width="1920" height="1080" muted autoplay loop>
+            <source src="https://n.v.netease.com/2018/0930/9bc8676616a49a6f929c8ce6e53fdfdd.webm?333" type="video/webm">
+            <source src="https://n.v.netease.com/2018/0930/b80f1f15df854eca664cf0d175997359.mp4" type="video/mp4">
+        </video>
+
+        <div class="circle">
+            <!--<div class="load-logo"></div>-->
+            <div class="progress">
+                <span>00</span>%
+            </div>
+        </div>
+    </div>
+
+    <div id="out-bg"><div id="bg"><div id="wrap">
+        <!--首屏-->
+        <header id="header" class="main">
+
+    <div class="slogan" id="slogan">10月19日破浪俄日来</div>
+    <div class="figure" id="figure"></div>
+    <div class="figure" id="figure-r"></div>
+    <div class="maple" id="maple"></div>
+    <div class="maple" id="maple-r"></div>
+    <div class="slogan" id="slogan-r">新流派龙吟</div>
+
+    <div class="video-box">
+        <video class="bgv enter-video" width="1920" height="1080" muted>
+            <source src="https://n.v.netease.com/2018/1015/06bcb94b05f8ef9b8c76317b8a68bca6.webm" type="video/webm">
+            <source src="https://n.v.netease.com/2018/0930/496da67633a7c0461047836d578abb9d.mp4" type="video/mp4">
+        </video>
+        <video class="bgv loop-video" id="video-loop" width="1920" height="1080" muted loop>
+            <source src="https://n.v.netease.com/2018/1015/f24b2567994c8f3eea4b84d9e5b7408b.webm" type="video/webm">
+            <source src="https://n.v.netease.com/2018/1015/7de6f3df3ac2724fb915c85fd4689aac.mp4" type="video/mp4">
+        </video>
+    </div>
+    <a id="gw" target="_blank" href="//n.163.com/index.html">进入官网</a>
+    <div class="logo-wrap">
+        <a href="javascript:void(0);" class="btn-audio"></a>
+        <a id="logo" target="_blank" href="//n.163.com/index.html">逆水寒</a>
+    </div>
+    </header>
+
+<!--领取礼包-->
+<article class="main no-click" id="art-1">
+	<section id="box-1">
+		<h4 class="title" id="title-11">01 快速注册</h4>
+		<div class="content" id="reg-wrap"></div>
+	</section>
+	<section id="box-2">
+		<h4 class="title" id="title-12">02 极速下载</h4>
+		<div class="content">
+			<div id="top-icon">
+				<b class="loop-c1"></b>
+				<b class="loop-c2"></b>
+				<em class="game-icon"></em>
+			</div>
+			<a target="_blank" href="//n.163.com/download/" id="btn-download">极速下载</a>
+		</div>
+	</section>
+	<section id="box-3">
+		<h4 class="title" id="title-13">03 一键豪礼</h4>
+		<div class="content" id="step1">
+			<p class="label">孔明灯</p>
+			<p class="label">精美油纸伞</p>
+			<p class="label">珍稀时装3套(男/女款)</p>
+			<a href="#" class="pop-btn-lingqu" id="btn-gift">领取江湖成长豪礼</a>
+		</div>
+	</section>
+</article>
+
+<!--卖点图-->
+<article class="main has-slide" id="art-2">
+	<nav class="nav no-click">
+		<a href="#feature-1" id="nav-21">会呼吸的江湖</a>
+		<a href="#feature-2" id="nav-22">旷世奇遇</a>
+		<a href="#feature-3" id="nav-23">NPC情缘</a>
+		<a href="#feature-4" id="nav-24">开放式世界</a>
+	</nav>
+
+	<section id="feature-1">
+		<h4 class="title" id="title-21">开放式世界</h4>
+		<h6 class="subhead">海量玩法养成任意身份</h6>
+	</section>
+
+	<section id="feature-2">
+		<h4 class="title" id="title-22">旷世奇遇</h4>
+		<h6 class="subhead">一时走运·名震江湖</h6>
+	</section>
+
+	<section id="feature-3">
+		<h4 class="title" id="title-24">NPC情缘</h4>
+		<h6 class="subhead">天下英雄·皆入后宫</h6>
+	</section>
+
+	<section id="feature-4">
+		<h4 class="title" id="title-23">开放式世界</h4>
+		<h6 class="subhead">海量玩法养成任意身份</h6>
+	</section>
+</article>
+
+<!--职业介绍-->
+<article class="main has-slide" id="art-3">
+	<nav class="nav no-click" data-event="click">
+		<a href="#role-ly" id="nav-30">龙吟</a>
+		<a href="#role-xh" id="nav-31">血河</a>
+		<a href="#role-sw" id="nav-32">素问</a>
+		<a href="#role-jl" id="nav-33">九灵</a>
+		<a href="#role-sm" id="nav-34">碎梦</a>
+		<a href="#role-sx" id="nav-35">神相</a>
+		<a href="#role-ty" id="nav-36">铁衣</a>
+	</nav>
+
+	<section id="role-ly">
+		<div class="bg-video no-click">
+			<video class="bgv" loop muted>
+
+				<source src="https://n.v.netease.com/2018/1015/2981cbe394624ad75392b65f3c870dceqt.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="bg-video-mask no-click"></div>
+
+		<div class="content">
+			<div class="video-wrap no-click">
+				<div class="video" data-mp4="https://nie.v.netease.com/r/video/20181019/baeb7548-74c8-422b-a848-48e76afc3ab2.mp4" data-hdmp4="https://nie.v.netease.com/r/video/20181019/84fad3ad-b32b-4193-be69-66d5da2962b0.mp4" data-shdmp4="https://nie.v.netease.com/r/video/20181019/35018afa-a5d5-4790-97d4-527cd5b50946.mp4">
+				</div>
+				<div class="btn-player"></div>
+			</div>
+
+			<h4 class="name">龙吟 [门派] 谪仙岛</h4>
+			<h6 class="skill">[剑法] </h6>
+			<div class="attr"></div>
+			<div class="role"></div>
+		</div>
+	</section>
+	<section id="role-xh">
+		<div class="bg-video no-click">
+			<video class="bgv" loop muted>
+				<!--<source src="https://n.v.netease.com/2018/0520/59b999649ff77aa15ff0bdf3f4adafff.webm" type="video/webm">-->
+				<source src="https://n.v.netease.com/2018/0612/e8f4f3ef02588ae156d2e63851440fefqt.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="bg-video-mask no-click"></div>
+
+		<div class="content">
+			<div class="video-wrap no-click">
+				<div class="video" data-mp4="https://nie.v.netease.com/r/video/20180531/5733f0ef-0b69-47de-b1a2-ee2c8e6f900e.mp4" data-hdmp4="https://nie.v.netease.com/r/video/20180531/a6ad04e4-afd9-4453-8f77-0e287d070b48.mp4" data-shdmp4="https://nie.v.netease.com/r/video/20180531/dc78f4ad-da04-458b-91de-359650220d74.mp4">
+					<!--<video class="bgv" src="https://nie.v.netease.com/r/video/20180531/b494ab94-b29e-4e10-a642-d696ce26bbf5.mp4" autoplay loop muted></video>-->
+				</div>
+				<div class="btn-player"></div>
+			</div>
+
+			<h4 class="name">血河 [门派] 碧血营</h4>
+			<h6 class="skill">[枪术] 输出防御 陷阵军事</h6>
+			<div class="attr"></div>
+			<div class="role"></div>
+		</div>
+	</section>
+
+	<section id="role-sw">
+		<div class="bg-video no-click">
+			<video class="bgv" loop muted>
+				<!--<source src="https://n.v.netease.com/2018/0517/21280281b0bf686df804864071d15e51.webm" type="video/webm">-->
+				<source src="https://n.v.netease.com/2018/0612/d8a36aba2b9660206dfb28135f060a07qt.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="bg-video-mask no-click"></div>
+
+		<div class="content">
+			<div class="video-wrap no-click">
+				<div class="video" data-mp4="https://nie.v.netease.com/r/video/20180531/efc3c028-823a-4d2a-86aa-5ba619fbdc9c.mp4" data-hdmp4="https://nie.v.netease.com/r/video/20180531/815fa88f-019f-4197-b14f-86c46f0563e7.mp4" data-shdmp4="https://nie.v.netease.com/r/video/20180531/9eb8f339-c0e5-45d7-9acb-25677e99015f.mp4">
+					<!--<video class="bgv" src="https://nie.v.netease.com/r/video/20180531/9b57cc0c-b79d-49ce-a65a-3e1a39f11430.mp4" autoplay loop muted></video>-->
+				</div>
+				<div class="btn-player"></div>
+			</div>
+
+			<h4 class="name">素问 [门派] 药王谷</h4>
+			<h6 class="skill">[丝带] 治疗辅助 翩若惊鸿</h6>
+			<div class="attr"></div>
+			<div class="role"></div>
+		</div>
+	</section>
+
+	<section id="role-jl">
+		<div class="bg-video no-click">
+			<video class="bgv" loop muted>
+				<!--<source src="https://n.v.netease.com/2018/0520/96940c2ccefe92535c9af7acaee189e6.webm" type="video/webm">-->
+				<source src="https://n.v.netease.com/2018/0612/1b9b33e3f35aa15e0cb1218354c618a6qt.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="bg-video-mask no-click"></div>
+
+		<div class="content">
+			<div class="video-wrap no-click">
+				<div class="video" data-mp4="https://nie.v.netease.com/r/video/20180531/5c19c048-89e5-43cd-8d50-bf0727de735a.mp4" data-hdmp4="https://nie.v.netease.com/r/video/20180531/a84d7dac-6c20-4387-a4d8-5bd3fb8457ef.mp4" data-shdmp4="https://nie.v.netease.com/r/video/20180531/44f868de-deef-4409-8325-3bb3b5567f2c.mp4">
+					<!--<video class="bgv" src="https://n.v.netease.com/2018/0522/96d4587df696462334d58a6b1465a7da.mp4" autoplay loop muted></video>-->
+				</div>
+				<div class="btn-player"></div>
+			</div>
+
+			<h4 class="name">九灵 [门派] 药王谷</h4>
+			<h6 class="skill">[蛊灵] 召唤输出 御影幻梦</h6>
+			<div class="attr"></div>
+			<div class="role"></div>
+		</div>
+	</section>
+
+	<section id="role-sm">
+		<div class="bg-video no-click">
+			<video class="bgv" loop muted>
+				<!--<source src="https://n.v.netease.com/2018/0517/17708dcab61c86ecdaae00f055f063df.webm" type="video/webm">-->
+				<source src="https://n.v.netease.com/2018/0612/bffe96821b627fe318424cb59bf7064bqt.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="bg-video-mask no-click"></div>
+
+		<div class="content">
+			<div class="video-wrap no-click">
+				<div class="video" data-mp4="https://nie.v.netease.com/r/video/20180531/42f17bf8-d7f0-48e1-b098-e9030dae301b.mp4" data-hdmp4="https://nie.v.netease.com/r/video/20180531/f68711d8-7e90-4dce-8def-007edcc29bfb.mp4" data-shdmp4="https://nie.v.netease.com/r/video/20180531/78578aa0-0261-4539-83d1-b34dd3e8955e.mp4">
+					<!--<video class="bgv" src="https://nie.v.netease.com/r/video/20180531/b72cf132-0502-46c0-ba28-a3901b9e941f.mp4" autoplay loop muted></video>-->
+				</div>
+				<div class="btn-player"></div>
+			</div>
+
+			<h4 class="name">碎梦 [门派] 谪仙岛</h4>
+			<h6 class="skill">[刀法] 近身输出 一瞬即殇</h6>
+			<div class="attr"></div>
+			<div class="role"></div>
+		</div>
+	</section>
+
+	<section id="role-sx">
+		<div class="bg-video no-click">
+			<video class="bgv" loop muted>
+				<!--<source src="https://n.v.netease.com/2018/0520/d5567ea52b4cd7bfb7248902bfd8de2a.webm" type="video/webm">-->
+				<source src="https://n.v.netease.com/2018/0612/7dba7df13eea1520cb4ede5c9d77dc2eqt.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="bg-video-mask no-click"></div>
+
+		<div class="content">
+			<div class="video-wrap no-click">
+				<div class="video" data-mp4="https://nie.v.netease.com/r/video/20180531/7f1ef065-53ea-4e50-8541-bfb7e32657ee.mp4" data-hdmp4="https://nie.v.netease.com/r/video/20180531/6b33b6d5-744b-4ce7-be7f-9fa7154eb8f6.mp4" data-shdmp4="https://nie.v.netease.com/r/video/20180531/b88fb18d-8886-461e-b5bc-097fd5e1e568.mp4">
+					<!--<video class="bgv" src="https://n.v.netease.com/2018/0522/d081e1e2c11bf1181fe11690f22caa0d.mp4" autoplay loop muted></video>-->
+				</div>
+				<div class="btn-player"></div>
+			</div>
+
+			<h4 class="name">神相 [门派] 白帝城</h4>
+			<h6 class="skill">[琴剑] 远程输出 决胜千里</h6>
+			<div class="attr"></div>
+			<div class="role"></div>
+		</div>
+	</section>
+
+	<section id="role-ty">
+		<div class="bg-video no-click">
+			<video class="bgv" loop muted>
+				<!--<source src="https://n.v.netease.com/2018/0520/6cad42498c6dd9416fc22593241a34f5.webm" type="video/webm">-->
+				<source src="https://n.v.netease.com/2018/0612/9d3e7a8ebc7ec52cc43ad94bb39c390fqt.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="bg-video-mask no-click"></div>
+
+		<div class="content">
+			<div class="video-wrap no-click">
+				<div class="video" data-mp4="https://nie.v.netease.com/r/video/20180531/b4f62eea-d7d2-4108-90b2-7a974af1a55b.mp4" data-hdmp4="https://nie.v.netease.com/r/video/20180531/6ef9ad8f-4852-431d-87c6-b2208229b7e1.mp4" data-shdmp4="https://nie.v.netease.com/r/video/20180531/63a42809-51ba-4f0c-8dc4-b8cb21a4b480.mp4">
+					<!--<video class="bgv" src="https://n.v.netease.com/2018/0522/c8744ff55e9f5f01e106e744cb2394dc.mp4" autoplay loop muted></video>-->
+				</div>
+				<div class="btn-player"></div>
+			</div>
+
+			<h4 class="name">铁衣 [门派] 碧血营</h4>
+			<h6 class="skill">[拳套] 守护输出 无懈可击</h6>
+			<div class="attr"></div>
+			<div class="role"></div>
+		</div>
+	</section>
+</article>
+
+<!--底部-->
+<footer>
+	<div id="share"></div>
+	<div id="NIE-copyRight"></div>
+</footer>
+</div></div></div>
+
+
+    <script src="https://n.res.netease.com/pc/gw/20180607140920/js/lib/clipboard.min_7b5de23.js" type="text/javascript" data-fixed="true"></script>
+<link rel="stylesheet" type="text/css" href="https://n.res.netease.com/pc/gw/20180607140920/css/libao_5d55c95.css">
+<!--领取礼包弹框-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--This is Git Project From N/n-gw-global_include_config(9177)-->
+<div class="pop_libao_mask"></div>
+<div id="pop-libao" class="pop">
+    <a class="close" href="javascript:void (0);"></a>
+    <div class="steps">
+        <div id="step1" class="step hide">
+            <i class="nb-tip"></i>
+            <a class="pop-btn-lingqu" href="javascript:void (0);"></a>
+        </div>
+        <div id="step2" class="step">
+
+        </div>
+        <div class="step insert" id="captcha-wrap">
+            <h2 class="tip-msg">请同门完成验证，获取礼包码哦</h2>
+            <div id="captcha" class="fr"></div>
+        </div>
+        <div id="step3" class="step hide">
+            <h3 class="login_info">
+                <span class="username"></span><a href="javascript:void (0);">[退出]</a>
+            </h3>
+            <h2 class="tip-msg">恭喜同门，你的礼包序列码是</h2>
+            <div class="clip-bg">
+                <div class="code" id="codeTxt"></div>
+                <a id="btn-clip" class="btn-clip" data-clipboard-target="#codeTxt" href="javascript:void (0);"></a>
+            </div>
+
+            <div class="desc">
+    <i class="tip-left"></i>
+    <p>领取成功后，请复制保存好弹窗中的礼包序列码。如遗忘，可在这个专题页面上登录通行证查询；</p>
+    <p>礼包兑换：请于游戏开服后登录游戏，各位同门请前往<span class="red">仙居原慕容秋（351,806）</span>处兑换礼包；</p>
+    <p>此外每升<span class="red">5</span>级，点击礼包就能获得对应奖励物品。</p>
+    <p>注：同一网易通行证只能领取<span class="red">1次</span>江湖成长礼包，新成长礼包的内容在<span class="red">10月18日维护后</span>进入游戏兑换才生效。本活动最终解释权归网易所有。</p>
+</div>
+        </div>
+    </div>
+
+    <div class="pop-right-wrap">
+        <i class="pop-t1"></i>
+        <div id="pop-reg"></div>
+        <i class="pop-t2"></i>
+
+        <a class="ngp-download" href="//n.163.com/download/" target="_blank" id="pop-libao-download" pub-name="礼包弹框中的官方极速下载链接">官方极速下载</a>
+
+        <div class="nb-download hide">
+            <a href="https://nsh.gdl.netease.com" title="启动游戏" rel="start-game" id="pop-libao-download-start" pub-name="礼包弹框中的启动游戏按钮下载地址" class="start">启动游戏</a>
+            <iframe name="gamerun" style="display:none"></iframe>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://n.res.netease.com/pc/gw/20180607140920/js/app/pop_libao_2593bc5.js" type="text/javascript" data-fixed="true"></script>
+
+<!--This is Git Project From N/n-fab-nb-pc-20180604(9114)-->
+    <h1 style="display: none">《逆水寒》官方网站 - 会呼吸的江湖 – 网易旗舰级武侠游戏！</h1>
+<h2 style="display: none">《逆水寒》官方网站 - 会呼吸的江湖 – 网易旗舰级武侠游戏！</h2>
+
+<!--[if lt IE 10]>
+<div style="position:absolute;left:0;top:0;width:100%;height:50px;background:red;color:#fff;border-bottom:1px solid
+         rgb(230,230,198);text-align:center;line-height:50px;font-size:14px;z-index: 99999;">您使用的浏览器版本过低，可能会影响到您浏览本网页，建议您升级您的浏览器。</div>
+<![endif]-->
+
+<div id="share_content" style="display:none"><!--设置浏览器及微信中点击分享的默认内容-->
+    <div id="share_title" pub-name="分享文案">新资料片“怒涛中的剑影”10月19日震撼上线，逆水三千里，新流派龙吟一剑破浪而来，只为遇见你。 </div><!--设置分享标题-->
+    <div id="share_url" pub-name="分享地址"></div><!--设置分享ＵＲＬ（选填）-->
+    <div id="share_desc" pub-name="分享文本">新资料片“怒涛中的剑影”10月19日震撼上线，逆水三千里，新流派龙吟一剑破浪而来，只为遇见你。 </div>
+    <div id="share_guide" pub-name="微信分享引导语">点击右上角按钮<br>分享到朋友圈</div>
+    <img id="share_pic" src="https://n.res.netease.com/pc/gw/20180613150437/img/share_453a87a.jpg" pub-name="分享图片"><!--设置分享图片地址，使用src指定图片地址，可加快在微信中点击分享时弹框中分享图标的显示速度-->
+</div>
+<!--This is Git Project From N/n-gw-global_include_config(9177)-->
+    <audio id="audio" src="https://n.v.netease.com/2018/1016/bb93528e7830f638231ffb966e2e58ba.mp3" autoplay loop class="hide"></audio>
+    <!--营销点代码-->
+    <iframe src="https://gad.netease.com/gad/point?point_id=1979&s=%2F5n2BRikRTnf3k8aheSrrTT3lZw%3D" style="display: none"></iframe>
+    
+	<script src="https://cstaticdun.126.net/load.min.js"></script><!-- 易盾验证码 -->
+	<script src="https://acstatic-dun.126.net/tool.min.js"></script>
+	<script src="https://n.res.netease.com/pc/fab/20180611110454/js/lib/jquery.ba-throttle-debounce_a67139f.js"></script>
+	<script src="https://n.res.netease.com/pc/fab/20180611110454/js/common/resLoader_a787d70.js"></script>
+	<script src="https://n.res.netease.com/pc/fab/20180611110454/js/common/common_a3ddf6c.js"></script>
+	<script src="https://n.res.netease.com/pc/fab/20180611110454/js/common/scroll-nav_9edc440.js"></script>
+	<script src="https://n.res.netease.com/pc/fab/20180611110454/js/app/index_2947389.js"></script>
+    <!--end-->
+</body>
+
+</html>
+
+<!--This is Git Project From N/n-fab-pc-20180615(9148)-->

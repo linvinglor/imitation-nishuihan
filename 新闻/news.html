@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新闻中心-《逆水寒》官方网站 - 会呼吸的江湖 – 网易旗舰级武侠游戏！</title>
+    <link rel="stylesheet" href="news.css"> <!-- 顶部通栏样式 -->
+    <script src="./news_js/jquery.js"></script> 
+    <script src="./news_js/new.js"></script>     <!-- 顶部通栏原生js -->
+</head>
+<body>
+    <!-- 顶部通栏开始 -->
+    <div class="top">
+        <div class="topmid" style="width: 1260px;margin: 0 auto">
+            <div class="logo">
+                <h1>
+                    <a href="javascript:void(0)" style="background: url('./images/logo_b5525b7.png') center no-repeat">
+                        网易游戏
+                    </a>
+                </h1>
+            </div>
+            <ul class="toplist">
+                <li><a href="javascript:void(0)"><span>注册账号</span></a></li>
+                <li><a href="javascript:void(0)"><span>安卓充值</span></a></li>
+                <li class="topBar"><a href="javascript:void(0)"><span>网易游戏全目录<i></i></span></a>
+                    <div id="NIE-topBar-menu">
+                        <!-- <span>网易游戏全目录 <em class="NIE-topBar-arrIcon"><i></i></em></span> -->
+                        <div class="NIE-table" id="NIE-table">
+                            <ul class="NIE-nav">
+                                <li style="width: 330px;"><b>客户端游戏</b></li>
+                                <li class="mobi" style="width: 591px;"><b>手机游戏</b></li>
+                                <li style="width: 146px;float:right;" class="last_th"><b>游戏辅助</b></li>
+                            </ul>
+
+                            <ul class="NIE-list">
+                                <li style="width: 147px;border-right: 0;">
+                                    <p>角色扮演</p>
+                                    <a href="http://xyq.163.com?from=nietop" target="_blank"><em class="NIE-topBar-1st">梦幻西游电脑版</em></a>
+                                    <a href="http://xy2.163.com?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话2经典版</em></a>
+                                    <a href="http://tx3.163.com?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下3</em></a>
+                                    <a href="http://xqn.163.com?from=nietop" target="_blank"><em class="NIE-topBar-new">新倩女幽魂</em></a>
+                                    <a href="http://n.163.com?from=nietop" target="_blank"><em class="NIE-topBar-new">逆水寒</em></a>
+                                    <a href="http://ty.163.com?from=nietop" target="_blank"><em class="NIE-topBar-new">天谕</em></a>
+                                    <a href="http://long.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">龙魂时刻</em></a>
+                                    <a href="http://tia.163.com?from=nietop" target="_blank"><em class="NIE-topBar-new">泰亚史诗</em></a>
+                                    <a href="http://dh2.163.com/?from=nietop" target="_blank">大话2免费版</a>
+                                    <a href="http://xy3.163.com?from=nietop" target="_blank">新大话3经典版</a>
+                                    <a href="http://x3.163.com?from=nietop" target="_blank">新大话3免费版</a>
+                                    <a href="http://zmq.163.com?from=nietop" target="_blank">镇魔曲</a>
+                                    <a href="http://zw.163.com/?from=nietop" target="_blank">镇魔曲页游</a>
+                                    <a href="http://dtws2.163.com?from=nietop" target="_blank">大唐无双</a>
+                                    <a href="http://wh2.163.com?from=nietop" target="_blank">武魂2</a>
+                                    <a href="http://www.warcraftchina.com?from=nietop" target="_blank">魔兽世界</a>
+
+                                </li>
+                                <li style="width: 121px;border-right:0;margin-left:20px;">
+                                    <p>&nbsp;</p>
+                                    <a href="http://www.diablo3.com.cn/?from=nietop" target="_blank">暗黑破坏神3</a>
+                                    <a href="http://ff.163.com?from=nietop" target="_blank">新飞飞</a>
+                                    <a href="http://jl.163.com?from=nietop" target="_blank">精灵传说</a>
+
+                                </li>
+                                <li class="short" id="js_NIE_topbar_xiu" style="width: 160px;position: absolute;left: 156px;background-color: #fdfefe;z-index:15;">
+                                    <p>竞技/休闲</p>
+                                    <a href="http://mc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">我的世界</em></a>
+                                    <a href="http://ow.blizzard.cn/home?from=nietop" target="_blank"><em class="NIE-topBar-new">守望先锋</em></a>
+                                    <a href="http://hyp.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">荒野行动Plus</em></a>
+                                    <a href="http://tuji.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">突击英雄</em></a>
+                                    <a href="http://wf.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">无尽战区</em></a>
+                                    <a href="http://z.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">战意</em></a>
+                                    <a href="http://mjdj.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">秘境对决</em></a>
+                                    <a href="http://www.heroesofthestorm.com.cn/landing/?from=nietop" target="_blank">风暴英雄</a>
+                                    <a href="http://sc2.163.com/home?from=nietop" target="_blank">星际争霸Ⅱ</a>
+                                    <a href="http://y3.163.com?from=nietop" target="_blank">英雄三国</a>
+                                    <a href="http://www.hearthstone.com.cn/?from=nietop" target="_blank">炉石传说</a>
+
+                                    <a href="javascript:void(0)" hidefocus="true" class="NIE-topBar-more" id="NIE-topBar-more-pc">更多热门端游</a>
+                                </li>
+
+                                <li class="hot" style="width: 150px;">
+                                    <p>热门推荐</p>
+                                    <a href="http://my.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">梦幻西游手游</em></a>
+                                    <a href="http://dhxy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大话西游手游</em></a>
+                                    <a href="http://qnm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">倩女幽魂手游</em></a>
+                                    <a href="http://yys.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">阴阳师</em></a>
+                                    <a href="https://moba.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">决战！平安京</em></a>
+                                    <a href="http://id5.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">第五人格</em></a>
+                                    <a href="http://clx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">楚留香</em></a>
+                                    <a href="http://stzb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">率土之滨</em></a>
+                                    <a href="http://tx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">天下手游</em></a>
+                                    <a href="http://zm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">镇魔曲手游</em></a>
+                                    <a href="http://qwq.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">非人学园</em></a>
+                                    <a href="http://dt.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">大唐无双唯美篇</em></a>
+                                    <a href="http://land.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">光明大陆</em></a>
+
+                                    <a href="http://kf.163.com/?from=nietop" target="_blank">功夫熊猫3手游</a>
+
+
+
+
+                                </li>
+                                <li class="news" style="width: 418px;">
+                                    <p>新品推荐</p>
+                                    <div id="NIE-list-news">
+                                        <div class="long-news">
+                                            <a href="http://xy3d.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">梦幻西游3D</em></a>
+                                            <a href="http://wxzc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">无限战车</em></a>
+                                            <a href="http://mc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">我的世界Minecraft</em></a>
+                                            <a href="http://hyj.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">花与剑</em></a>
+                                            <a href="http://sky.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">Sky光遇</em></a>
+                                            <a href="http://lx.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">流星蝴蝶剑</em></a>
+                                            <a href="http://uno.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">一起优诺</em></a>
+                                            <a href="http://pes.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">实况足球</em></a>
+                                            <a href="http://t2.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">终结者2官方手游</em></a>
+                                            <a href="http://hy.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">荒野行动</em></a>
+                                            <a href="http://gd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">孤岛先锋</em></a>
+                                            <a href="http://jwxf.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">舰无虚发：暗星</em></a>
+                                            <a href="http://survive.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">明日之后</em></a>
+                                            <a href="http://pescc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">实况：王者集结</em></a>
+                                            <a href="http://hz.163.com//?from=nietop" target="_blank"><em class="NIE-topBar-new">绘真·妙笔千山</em></a>
+                                            <a href="http://ws.163.com//?from=nietop" target="_blank"><em class="NIE-topBar-new">战舰世界闪击战</em></a>
+                                            <a href="http://wotb.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">坦克世界闪击战</em></a>
+                                            <a href="http://3v3.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">战争怒吼</em></a>
+                                            <a href="http://qlyfz.163.com//?from=nietop" target="_blank"><em class="NIE-topBar-new">权力与纷争</em></a>
+                                            <a href="http://codecombat.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">极客战记</em></a>
+                                            <a href="http://tqlm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">天启联盟</em></a>
+                                        </div>
+                                        <div class="long-news">
+                                            <a href="http://sword.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">轩辕剑龙舞云山</em></a>
+                                            <a href="http://dot.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">泰坦黎明</em></a>
+                                            <a href="http://zgz.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">战国志</em></a>
+                                            <a href="http://sg.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">三国如龙传</em></a>
+                                            <a href="http://mytrip.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">边境之旅</em></a>
+                                            <a href="http://qp.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易棋牌</em></a>
+                                            <a href="http://sywm.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">神谕文明</em></a>
+                                            <a href="http://yume.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">悠梦YuME</em></a>
+                                            <a href="http://sd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">神都夜行录</em></a>
+                                            <a href="http://fc.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">永远的7日之都</em></a>
+                                            <a href="http://fdhz.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">反斗海战</em></a>
+                                            <a href="http://lh.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">猎魂觉醒</em></a>
+                                            <a href="http://tym.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">天谕手游</em></a>
+                                            <a href="http://room.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">迷室The
+                                                    Room</em></a>
+                                            <a href="http://lyzd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">绿茵之巅</em></a>
+                                            <a href="http://hd.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">海岛纪元</em></a>
+                                            <a href="http://fz.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">汉王纷争</em></a>
+                                            <a href="http://popa.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">泡泡趴</em></a>
+
+
+                                        </div>
+                                        <div class="short-news">
+                                            <a href="http://ma3.163.com/?from=nietop" target="_blank">叛逆性百万亚瑟王</a>
+                                            <a href="http://langrensha.163.com/?from=nietop" target="_blank">狼人杀</a>
+                                            <a href="http://bilibili.163.com/?from=nietop" target="_blank">魔法禁书目录</a>
+                                            <a href="http://mhws.163.com/?from=nietop" target="_blank">梦幻西游无双</a>
+                                            <a href="http://hzgj.163.com/?from=nietop" target="_blank">魂之轨迹</a>
+                                            <a href="http://mjdj.163.com/?from=nietop" target="_blank">秘境对决</a>
+                                            <a href="http://myj.163.com/?from=nietop" target="_blank">九州海上牧云记</a>
+                                            <a href="http://sv.163.com/?from=nietop" target="_blank">影之诗</a>
+                                            <a href="http://xfj.163.com/?from=nietop" target="_blank">暴走小飞机</a>
+                                            <a href="http://dui.163.com/?from=nietop" target="_blank">猪场怼怼乐</a>
+                                            <a href="http://chao.163.com/?from=nietop" target="_blank">潮人篮球</a>
+                                            <a href="http://wpls.163.com/?from=nietop" target="_blank">秘宝猎人:王牌猎手</a>
+                                            <a href="http://mwqs.163.com/?from=nietop" target="_blank">迷雾求生</a>
+                                            <a href="http://sgblade.163.com/?from=nietop" target="_blank">三国诛将录</a>
+                                            <a href="http://zztj.163.com/?from=nietop" target="_blank">重装突击</a>
+
+                                            <a href="http://ms.163.com/?from=nietop" target="_blank">元气战姬学院</a>
+                                        </div>
+                                        <div class="short-news">
+                                            <a href="http://dance.163.com/?from=nietop" target="_blank">劲舞团</a>
+                                            <a href="http://tank.163.com/?from=nietop" target="_blank">坦克连</a>
+                                            <a href="http://dhrx.163.com/?from=nietop" target="_blank">大话西游热血版</a>
+                                            <a href="http://dhh.163.com/?from=nietop" target="_blank">大航海之路</a>
+                                            <a href="http://spp.163.com/?from=nietop" target="_blank">超物理基斗</a>
+                                            <a href="http://ssydj.163.com/?from=nietop" target="_blank">三少爷的剑</a>
+                                            <a href="http://mwsj.163.com/?from=nietop" target="_blank">迷雾世界</a>
+                                            <a href="http://moe.163.com/?from=nietop" target="_blank">萌王EX</a>
+                                            <a href="http://dao.163.com/?from=nietop" target="_blank">飞刀又见飞刀</a>
+                                            <a href="http://mblr.163.com/?from=nietop" target="_blank">秘宝猎人</a>
+                                            <a href="http://fmz.163.com/?from=nietop" target="_blank">伏魔咒</a>
+
+                                            <a href="http://txx.163.com/?from=nietop" target="_blank">天下X天下</a>
+                                            <a href="http://zj.163.com/?from=nietop" target="_blank">异次元战姬</a>
+                                            <a href="http://yhbj.163.com/?from=nietop" target="_blank">永恒边境</a>
+                                            <a href="http://wjsy.163.com/?from=nietop" target="_blank">无尽神域</a>
+
+                                            <a href="http://zh.163.com/boot.html?from=nietop" target="_blank">斩魂手游版</a>
+                                            <a href="http://glory.163.com/?from=nietop" target="_blank">格罗亚传奇</a>
+
+
+
+
+                                        </div>
+                                        <div class="short-news">
+                                            <a href="http://yzr.163.com/?from=nietop" target="_blank">雨血：影之刃</a>
+                                            <a href="http://hyy.163.com/?from=nietop" target="_blank">花语月</a>
+                                            <a href="http://sl.163.com/?from=nietop" target="_blank">圣灵觉醒</a>
+                                            <a href="http://ldxy.163.com/?from=nietop" target="_blank">乱斗西游2</a>
+                                            <a href="http://jm.163.com/?from=nietop" target="_blank">惊梦</a>
+                                            <a href="http://cake.163.com/index.html?from=nietop" target="_blank">蛋糕物语</a>
+                                            <a href="http://mmx.163.com/?from=nietop" target="_blank">火拼萌萌消</a>
+                                            <a href="http://dwlm.163.com/?from=nietop" target="_blank">超能动物联盟</a>
+                                            <a href="http://zlj.163.com/?from=nietop" target="_blank">口袋侏罗纪</a>
+                                            <a href="http://xym.163.com/?from=nietop" target="_blank">迷你西游</a>
+                                            <a href="http://zgmh.163.com/?from=nietop" target="_blank">主公莫慌</a>
+                                            <a href="http://wscs.163.com/?from=nietop" target="_blank">实况俱乐部</a>
+                                            <a href="http://dfw9.163.com/?from=nietop" target="_blank">大富翁9</a>
+
+
+
+
+                                        </div>
+                                        <div class="short-news">
+                                            <a href="http://yhl.163.com/?from=nietop" target="_blank">倩女幽魂录</a>
+                                            <a href="http://hzhy.163.com/?from=nietop" target="_blank">魂之幻影</a>
+                                            <a href="http://dtyxj.163.com/?from=nietop" target="_blank">大唐游仙记</a>
+                                            <a href="http://txhd.163.com/?from=nietop" target="_blank">天下HD</a>
+                                            <a href="http://jx.163.com/?from=nietop" target="_blank">无尽战区·觉醒</a>
+                                            <a href="http://jjwz.163.com/?from=nietop" target="_blank">荆棘王座</a>
+                                            <a href="http://sm.163.com/?from=nietop" target="_blank">西游神魔决</a>
+                                            <a href="http://sq.163.com/?from=nietop" target="_blank">有杀气童话</a>
+                                            <a href="http://puppy.163.com/?from=nietop" target="_blank">小汪汪</a>
+                                            <a href="http://xsd.163.com/?from=nietop" target="_blank">小时代官方游戏</a>
+                                            <a href="http://ywl.163.com/?from=nietop" target="_blank">妖刀少女异闻录</a>
+                                            <a href="http://tnj.163.com/?from=nietop" target="_blank">猫和老鼠官方手游</a>
+                                            <a href="http://gfxm.163.com/?from=nietop" target="_blank">功夫熊猫官方手游</a>
+                                            <a href="http://miku.163.com/?from=nietop" target="_blank">初音速</a>
+
+                                        </div>
+                                    </div>
+
+                                    <a href="javascript:void(0)" hidefocus="true" class="NIE-topBar-more" id="NIE-topBar-more-mobi"  style="z-index:99">更多热门手游</a>
+                                </li>
+                                <li class="short" style="width: 150px;border-right:0;float:right;">
+
+                                    <a href="http://ypw.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">游品位</em></a>
+                                    <a href="http://mumu.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">网易MuMu</em></a>
+                                    <a href="http://qiyu.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-hot">奇遇俱乐部</em></a>
+                                    <a href="http://ds.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易大神</em></a>
+                                    <a href="https://buff.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易BUFF</em></a>
+                                    <a href="http://gift.163.com/?from=nietop" target="_blank">网易游戏印象</a>
+                                    <a href="http://pt.163.com/?from=nietop" target="_blank">网易游戏平台</a>
+                                    <a href="http://yxzs.163.com/?from=nietop" target="_blank"><em class="NIE-topBar-new">网易游戏助手</em></a>
+                                    <a href="http://mkey.163.com?from=nietop" target="_blank">手机将军令</a>
+                                    <a href="http://ekey.163.com?from=nietop" target="_blank">将军令</a>
+                                    <a href="http://cbg.163.com?from=nietop" target="_blank">藏宝阁</a>
+                                    <a href="http://cc.163.com?from=nietop" target="_blank">网易CC</a>
+                                    <a href="http://box.gm.163.com/?fromnietop" target="_blank">自助百宝箱</a>
+                                    <a href="http://uu.163.com?from=nietop" target="_blank">网易UU加速器</a>
+                                    <a href="https://bjk.163.com/hongka/?cmpid=jt-wyk-n&amp;shopid=lmk.cps.jtwykn?from=nietop"
+                                        target="_blank">网易白金卡</a>
+                                    <a href="http://gm.163.com?from=nietop" target="_blank">客服中心</a>
+                                    <a class="NIE-topBar-btn" href="http://game.163.com/?from=nietop" target="_blank">网易游戏</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="getAd">
+                    <a href="javascript:void(0)"><span>领取网易严选宝箱</span></a>
+                    <a href="javascript:void(0)"><span>安卓充值9.8折</span></a>
+                    <a href="javascript:void(0)"><span>安卓充值9.8折</span></a>
+                    <a href="javascript:void(0)"><span>领取网易严选宝箱</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 顶部通栏结束 -->
+
+    <!-- 导航栏部分 -->
+    <div class="inner-bg">
+     <div id="gw-header">
+         <a href="../首页/逆水寒_homePage/homePage.html" class="logo"></a>
+         <div class="nav-wrap">
+          <ul class="nav-box">
+              <li class="nav-li">
+                <a href="../首页/逆水寒_homePage/homePage.html" class="nav1"></a>
+                </li>
+                <li class="nav-li">
+                        <a href="news.html" class="nav2 active"></a>
+                        <ul class="drop-box down-news" style="display:none;opacity: 0;">
+                            <li>
+                              <a href="news.html" class="news1">最新新闻</a>
+                            </li>
+                            <li>
+                               <a href="news.html" class="news2">热点新闻</a>
+                                  </li>
+                                  <li>
+                                    <a href="news.html" class="news3">官方公告</a>
+                                           </li>
+                                           <li>
+                                              <a href="news.html" class="news4">主题游戏</a>
+                                                       </li>
+                        </ul>
+                        </li>
+                        <li class="nav-li last-li">
+                                <a href="../宗派/龙吟.html" class="nav3"></a>
+                                <ul class="drop-box jobs" style="display:none;opacity:0;">
+                                   <li>
+                                        <a href="../宗派/其他门派.html" class="job1"></a>
+                                        <span class="icon-new"></span>
+                                    </li>
+                                    <li>
+                                            <a href="../宗派/其他门派.html" class="job2"></a>
+                                        </li>
+                                        <li>
+                                                <a href="../宗派/其他门派.html" class="job3"></a>
+                                            </li>
+                                            <li>
+                                                    <a href="../宗派/其他门派.html" class="job4"></a>
+                                                </li>
+                                                <li>
+                                                        <a href="../宗派/其他门派.html" class="job5"></a>
+                                                    </li>
+                                                    <li>
+                                                            <a href="../宗派/其他门派.html" class="job6">铁衣</a>
+                                                        </li>
+                                </ul>
+                                </li>
+                                <li class="nav-li">
+                                        <a href="../江湖知己/江湖知己.html" class="nav4"></a>
+                                          <ul class="down-dashi drop-box" style="display:none;opacity:0;">
+                                               <li>
+                                                    <a href="../江湖知己/江湖知己.html" class="dashi1"></a>
+                                               </li>
+                                               <li>
+                                                    <a href="../江湖知己/江湖知己.html" class="dashi2"></a>
+                                               </li>
+                                               <li>
+                                                    <a href="../江湖知己/江湖知己.html" class="dashi3"></a>
+                                               </li>
+                                               <li>
+                                                    <a href="../江湖知己/江湖知己.html" class="dashi4"></a>
+                                               </li>
+                                               <li>
+                                                    <a href="../江湖知己/江湖知己.html" class="dashi5"></a>
+                                               </li>
+                                           </a>
+                                          </ul>
+                                        </li>
+                                        <li class="nav-li">
+                                                <a href="../视频图赏/视频鉴赏.html" class="nav5"></a>
+                                                <ul class="drop-box down-media" style="display:none;opacity: 0;">
+                                                    <li>
+                                                        <a href="../视频图赏/视频鉴赏.html" class="media1"></a>
+                                                    </li>
+                                                    <li>
+                                                            <a href="../视频图赏/视频鉴赏.html" class="media2"></a>
+                                                        </li>
+                                                </ul>
+                                                </li>
+                                                <li class="nav-li">
+                                                        <a href="javascript:;" class="nav6"></a>
+                                                        </li>
+                                                        <li class="nav-li">
+                                                                <a href="javascript:;" class="nav7">
+                                                                 <div class="card_border animate">
+                                                                    <div class="border_top"></div>
+                                                                    <div class="border_bottom "></div>
+                                                                    <div class="border_left"></div>
+                                                                    <div class="border_right"></div>
+                                                                 </div>
+                                                                 <em class="hot">
+                                                                     "官方网站"
+                                                                     ::after
+                                                                    </em>
+                                                                </a>
+                                                                <ul class="drop-box" style="display:none;opacity:0;">
+                                                                    <li>
+                                                                        <img src="./images/bbscode_8dbaeb4.png" alt="" width="95" height="120">
+                                                                    </li>
+                                                                </ul>
+                                                         </li>
+          </ul>
+         </div>
+     </div>    
+     <!-- 导航栏部分结束 -->
+     <div class="main">   <!-- 主体内容开始 -->
+            <div class="inner-side">
+              <a href="javascript:;" class="download"></a>
+              <div class="btns">
+                  <a href="../注册页/zhuce.html" class="btn-reg"></a>
+                  <a href="../成长礼包/成长豪礼.html" class="btn-libao"></a>
+                  <a href="javascript:;" class="btn-cz "></a>
+                  <div class="zs"></div>
+                  <div class="wx"></div>
+                  <a href="javascript" class="wb"></a>
+              </div>
+            </div>
+            <div class="content-box">
+                <div class="content-title"></div>
+                <div class="info">
+                    <div class="bread-nav fr">
+                        当前位置:
+                        <span><a href="javascript:;">官网首页></a></span>
+                        <a href="javascript:;"><span class="red">新闻资讯</span></a>
+                    </div>
+                </div>
+                <div class="bg-list">
+                    <div class="list-box">
+                        <ul class="tab-title">
+                         <li>
+                             <a href="javascript:;" class="tab-1 active"></a>
+                         </li>
+                         <li>
+                                <a href="javascript:;" class="tab-2"></a>
+                            </li>
+                            <li>
+                                    <a href="javascript:;" class="tab-3"></a>
+                                </li>
+                                <li>
+                                        <a href="javascript:;" class="tab-4"></a>
+                                    </li>
+                        </ul>
+                        <div class="news-wrap">
+                            <ul class="news-list">
+                                <li>
+                                        <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-25</span>
+                                    
+                                    <a title="《遇见逆水寒》10月25日更新公告" href="//n.163.com/news/update/20181025/29094_781714.html" target="_blank">《遇见逆水寒》10月25日更新公告</a>
+                                    
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-25</span>
+                                    <a title="说英雄谁是英雄《逆水寒》年度玩家盛典开始报名" href="//n.163.com/news/20181025/26225_781710.html" target="_blank">说英雄谁是英雄《逆水寒》年度玩家盛典开始报名</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-25</span>
+                                    <a title="《逆水寒》2018年10月25日更新公告" href="//n.163.com/news/update/20181025/29094_781673.html" target="_blank">《逆水寒》2018年10月25日更新公告</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-23</span>
+                                    <a title="嘘~我偷偷地把TA们送给你！别被那个和尚发现啦！" href="https://n.netease.com/thread-159554-1-1.html" target="_blank">嘘~我偷偷地把TA们送给你！别被那个和尚发现啦！</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-19</span>
+                                    <a title="龙吟出山新服爆满，两组新服即将开放" href="//n.163.com/news/update/20181019/29094_780593.html" target="_blank">龙吟出山新服爆满，两组新服即将开放</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-19</span>
+                                    <a title="“怒涛中的剑影”10.19上线，江湖礼包领取大全" href="//n.163.com/news/20181018/26225_780337.html" target="_blank">“怒涛中的剑影”10.19上线，江湖礼包领取大全</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-19</span>
+                                    <a title="龙出东海，剑吟江湖！新流派龙吟破浪而来" href="//n.163.com/news/20181019/26225_780519.html" target="_blank">龙出东海，剑吟江湖！新流派龙吟破浪而来</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-19</span>
+                                    <a title="逆水寒新资料片今日上线，会呼吸的江湖渐入佳境" href="//n.163.com/news/20181019/26225_780492.html" target="_blank">逆水寒新资料片今日上线，会呼吸的江湖渐入佳境</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-19</span>
+                                    <a title="逆水寒又开新脑洞？新版本可以出家了" href="//n.163.com/news/20181019/26225_780477.html" target="_blank">逆水寒又开新脑洞？新版本可以出家了</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-19</span>
+                                    <a title="逆水寒结婚系统上线，来一场浪漫为名的婚礼吧" href="//n.163.com/news/20181019/26225_780472.html" target="_blank">逆水寒结婚系统上线，来一场浪漫为名的婚礼吧</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-18</span>
+                                    <a title="逆水寒流派攻略大赛火热来袭！参与即领专属称号！" href="https://n.netease.com/thread-159742-1-1.html" target="_blank">逆水寒流派攻略大赛火热来袭！参与即领专属称号！</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-18</span>
+                                    <a title="《逆水寒》2018年10月18日更新公告" href="//n.163.com/news/update/20181018/29094_780253.html" target="_blank">《逆水寒》2018年10月18日更新公告</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-17</span>
+                                    <a title="逆水寒庄园障碍地图设计征集赛" href="https://n.netease.com/thread-159129-1-1.html" target="_blank">逆水寒庄园障碍地图设计征集赛</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-12</span>
+                                    <a title="10月19日五组新服上线 今日开启预约" href="//n.163.com/news/20181011/26225_779310.html" target="_blank">10月19日五组新服上线 今日开启预约</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-11</span>
+                                    <a title="《逆水寒》玫瑰风雪礼盒概率公示" href="//n.163.com/news/20181010/29687_779091.html" target="_blank">《逆水寒》玫瑰风雪礼盒概率公示</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-11</span>
+                                    <a title="诸君共赏《逆水寒》江湖MV合集" href="https://n.netease.com/thread-157670-1-1.html" target="_blank">诸君共赏《逆水寒》江湖MV合集</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-10-11</span>
+                                    <a title="《逆水寒》2018年10月11日更新公告" href="//n.163.com/news/update/20181011/29094_779168.html" target="_blank">《逆水寒》2018年10月11日更新公告</a>
+                                </li>
+                                     <li>
+                                            <img src="images/icon-banner_15a65c5.png" alt="">
+                                    <span class="time fr">18-09-30</span>
+                                    <a title="《逆水寒》玫瑰云樱礼盒概率公示" href="//n.163.com/news/20180930/29687_777563.html" target="_blank">《逆水寒》玫瑰云樱礼盒概率公示</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- 页脚部分开始 -->
+   <div id="foot">
+        <div class="copyRight">
+            <div class="nie-copyright-new-inner">
+               <div class="part1">
+                   <span class="nie-cn-logo">
+                       <a href="javascript:;" class="a0">
+                           <img src="./images/netease.1.png" alt="">
+                       </a>
+                       <a href="javascript:;" class="a1">
+                             <img src="./images/nie.1.png" alt="">
+                         </a>
+                         <a href="javascript:;" class="a2">
+                                 <img src="./images/leihuo.1.png" alt="">
+                             </a>
+                             <a href="javascript:;" class="a3">
+                                     <img src="./images/wen.png" alt="">
+                                 </a>
+                                 <a href="javascript:;" class="a4">
+                                         <img src="./images/wen2.png" alt="">
+                                     </a>
+                                     <a href="javascript:;" class="a5">
+                                             <img src="./images/fuxi.1.png" alt="">
+                                         </a>
+                   </span>
+                   <span class="nie-cn-nav">
+                      <i class="nie-cn-nav-i1">
+                            <a href="javascript:;">公司简介</a>
+                            -
+                            <a href="javascript:;">客服服务</a>
+                            -
+                            <a href="javascript:;">相关法律</a>
+                            -
+                            <a href="javascript:;">网易游戏</a>
+                            -
+                            <a href="javascript:;">联系我们</a>
+                            -
+                            <a href="javascript:;">商务合作</a>
+                            -
+                            <a href="javascript:;">加入我们</a>
+                      </i>
+                      <br>
+                      <i class="nie-cn-nav-i2">
+                          网易版权所有 ©1997-2018
+                          <a href="javascript:;" class="project">点击查看家长监护></a>
+                      </i>
+                   </span>
+               </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 导航栏部分结束 -->
+  
+    
+     
+</body>
+
+</html>

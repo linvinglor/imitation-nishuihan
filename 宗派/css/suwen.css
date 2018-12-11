@@ -1,0 +1,251 @@
+/*********************** 样式初始化 */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+div,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+a,
+s,
+i,
+strong,
+del,
+ins,
+span,
+input,
+img {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 400 12px/100% "微软雅黑";
+    background-color: #F6F6F6;
+}
+ul {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #565656;
+}
+
+s {
+    text-decoration: none;
+}
+
+input {
+    outline: 0;
+    border: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+
+/* 清除浮动 */
+.clearfix::after {
+    content: ".";
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    display: block;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+/**************************主要内容 */
+.main {
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    background: url("../images/suwen-bg_9b31741.jpg") no-repeat center;
+    background-size: 2000px 800px;
+    position: relative;
+}
+.main .video-wrap {
+    width: 100%;
+    height: 800px;
+}
+.main-left {
+    width: 80px;
+    height: 90%;
+    /* background-color: red; */
+    position: absolute;
+    left: 180px;
+    top: 30px;
+    z-index: 2; 
+} 
+.main-left .logo a {
+    display: block;
+    height: 240px;
+    width: 80px;
+    background: url("../images/logo_6192982.png");
+    text-indent: -999px;
+    
+    /* background-color: green; */
+
+}
+.btn-box {
+    width: 80px;
+    height: 70px;
+ /* background-color: blue; */
+ margin-top: 10px;
+}
+.btn-box .shouye a,
+.btn-box .lianjie-1 a {
+    display: block;
+    width: 31px;
+    height: 35px;
+    margin: 0 auto;  
+   
+}
+.btn-box .shouye a {
+    background: url("../images/index-icon_cef722c.png") no-repeat ;
+}
+.btn-box .lianjie-1 a {
+    background: url("../images/index-icon_cef722c.png") no-repeat 0px -40px;
+}
+.btn-box .shouye a:hover {
+    background: url("../images/index-icon_cef722c.png") no-repeat -40px 0;
+} 
+.btn-box .lianjie-1 a:hover {
+    background: url("../images/index-icon_cef722c.png") no-repeat -40px -40px;
+} 
+.btn-box .rengwu {
+    height: 340px;
+    width: 100px;
+    /* background-color: yellow; */
+     margin-top: 20px;
+} 
+.btn-box .rengwu li  {    
+    margin:20px auto;
+ 
+}
+.btn-box .rengwu li:first-child a,
+.btn-box .rengwu li:nth-child(2) a,
+.btn-box .rengwu li:nth-child(3) a {
+    height: 30px; 
+    display: block; 
+}
+.btn-box .rengwu li:first-child a {
+    background: url("../images/main-nav_5a72013.png") no-repeat -20px 0px;
+} 
+.btn-box .rengwu li:first-child a:hover {
+    background: url("../images/main-nav_5a72013.png") no-repeat -176px 0px;
+} 
+.btn-box .rengwu li:nth-child(2) a {
+    background: url("../images/main-nav_5a72013.png") no-repeat 11px -100px;
+} 
+.btn-box .rengwu li:nth-child(2) a:hover {
+    background: url("../images/main-nav_5a72013.png") no-repeat -145px -95px;
+}
+.btn-box .rengwu li:nth-child(3) a {
+    background: url("../images/main-nav_5a72013.png") no-repeat 11px -147px;
+    
+} 
+.btn-box .rengwu li:nth-child(3) a:hover {
+    background: url("../images/main-nav_5a72013.png") no-repeat -145px -147px;
+    
+} 
+
+
+.longying1 img {
+    width: 100%; 
+    position: absolute;
+    left: 50px;
+    /* 图片整体往左位移 */
+   bottom: 0px;
+}
+
+.jianfa {
+    
+   
+    width: 200px;
+    height: 495px;
+    position: absolute;
+    top: 420px;
+    right: 580px;
+    background: url("../images/ability_46c0bc5.png") no-repeat -882px 0px;
+}
+.school {
+    width: 36px;
+    height: 150px;
+    position: absolute;
+    right: 49%;
+	top: 18%;
+	transform: translate(50%,-50%);
+    background: url("../images/school_4771241.png") no-repeat 0px 0px;
+
+    
+}
+.longying {
+    position: absolute;
+    top: 10px;
+    right: 650px;
+}
+
+
+/*************************** 页脚样式 */
+.foot {
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+}
+.foot .foot-inner {
+    width: 1000px;
+    height: 48px;
+  
+  padding-top: 15px;
+   
+   margin: 0 auto;
+    /* background-color:red; */
+    
+}
+
+.inner-part1{
+   
+    display: block;
+height: 48px;
+width: 50%;
+    line-height: 48px;
+    
+    float: left;
+}
+.inner-part2 {
+    display: block;
+height: 90px;
+width:480px;
+
+float: right;
+color: #fff;
+
+}
+.inner-part2-i2 a {
+    color: #fff;
+   float: right;
+    background-color: red;
+    line-height: 20px;
+}
+
+

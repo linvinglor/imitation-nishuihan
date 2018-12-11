@@ -1,0 +1,368 @@
+/*********************** 样式初始化 */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+div,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+a,
+s,
+i,
+strong,
+del,
+ins,
+span,
+input,
+img {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 400 12px/100% "微软雅黑";
+    background-color: #F6F6F6;
+}
+ul {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #565656;
+}
+
+s {
+    text-decoration: none;
+}
+
+input {
+    outline: 0;
+    border: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+
+/* 清除浮动 */
+.clearfix::after {
+    content: ".";
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    display: block;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+/**************************主要内容 */
+.main {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    background: url("../images/bg_dd9755c.jpg") no-repeat center;
+    background-size: 2000px 800px;
+    position: relative;
+}
+.main-left {
+    width: 80px;
+    height: 90%;
+    /* background-color: red; */
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    z-index: 2; 
+} 
+.main-left .logo a {
+    display: block;
+    height: 240px;
+    width: 80px;
+    background: url("../images/logo_28d0be6.png");
+    text-indent: -999px;
+    
+    /* background-color: green; */
+
+}
+.btn-box {
+    width: 80px;
+    height: 70px;
+ /* background-color: blue; */
+ margin-top: 10px;
+}
+.btn-box .shouye a,
+.btn-box .lianjie-1 a {
+    display: block;
+    width: 31px;
+    height: 35px;
+    margin: 0 auto;  
+   
+}
+.btn-box .shouye a {
+    background: url("../images/index-icon_cef722c.png") no-repeat ;
+}
+.btn-box .lianjie-1 a {
+    background: url("../images/index-icon_cef722c.png") no-repeat 0px -40px;
+}
+.btn-box .shouye a:hover {
+    background: url("../images/index-icon_cef722c.png") no-repeat -40px 0;
+} 
+.btn-box .lianjie-1 a:hover {
+    background: url("../images/index-icon_cef722c.png") no-repeat -40px -40px;
+} 
+.btn-box .rengwu {
+    height: 340px;
+    width: 80px;
+    /* background-color: yellow; */
+     margin-top: 20px;
+} 
+.btn-box .rengwu li  {    
+    margin:10px auto;
+ 
+}
+.btn-box .rengwu li:first-child a,
+.btn-box .rengwu li:nth-child(2) a,
+.btn-box .rengwu li:nth-child(3) a {
+    height: 70px; 
+    display: block; 
+}
+.btn-box .rengwu li:first-child a {
+    background: url("../images/nav_d01b1ca.png") no-repeat -60px 0px;
+} 
+/* .btn-box .rengwu li:nth-child(2) a {
+    background: url("../images/images-龙吟/nav_d01b1ca.png") no-repeat 11px -73px;
+} 
+.btn-box .rengwu li:nth-child(2) a:hover {
+    background: url("../images/images-龙吟/nav_d01b1ca.png") no-repeat -60px -73px;
+} */
+.btn-box .rengwu li:nth-child(2) a {
+    background: url("../images/nav_d01b1ca.png") no-repeat 11px -147px;
+    
+} 
+.btn-box .rengwu li:nth-child(2) a:hover {
+    background: url("../images/nav_d01b1ca.png") no-repeat -60px -147px;
+    
+} 
+
+
+.longying1 img {
+    width: 80%; 
+    position: absolute;
+    left: -266px;
+    /* 图片整体往左位移 */
+    top: 0px;
+}
+@keyframes shuiwen {
+    from {
+        transform: scale(1,1);
+    }
+    to {
+        transform: scale(1.2,1.2);
+    }
+}
+/* 中间视频样式 */
+.cover-zhongjian {
+    position: absolute;
+    top: 550px;
+    left: 800px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 1px solid #F6F6F6;
+    animation: huxi 2s linear infinite alternate; 
+   
+  
+}
+.cover-zhongjian video {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 50%;
+	top: 50%;
+    transform: translate(50%,-50%);
+   
+    
+}
+
+/* 剑法 */
+.jianfa {
+    position: absolute;
+    top: 10px;
+    right: 170px;
+}
+.longying {
+    position: absolute;
+    top: 10px;
+    right: 280px;
+}
+/* 右下方图片 */
+.cover {
+position: absolute;
+ bottom: 5px;
+ right: 160px;
+}
+/* 呼吸动画 */
+@keyframes huxi {
+    from {
+        transform: scale(1,1);
+    }
+    to {
+        transform: scale(1.2,1.2);
+    }
+}
+
+.cover .beae01d {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 50%;
+	top: 50%;
+    transform: translate(50%,-50%);
+}
+/* 右下角播放三角 */
+.cover .beae01d img{
+    animation: huxi 2s linear infinite alternate;   
+}
+
+/* 视频➕删除图标的盒子 */
+.cover-video-close {
+    width: 1160px;
+    height: 500px;
+    position: absolute;
+    right: 50%;
+	top: 50%;
+    transform: translate(50%,-50%);
+    display: none;
+    /* 必须对这个大盒子隐藏,如果只藏小盒子,右下角的打不开他 */
+}
+/* 点击右下方弹出的视频 */
+.cover-video-close .cover-video video {
+    width: 1110px;
+    height: 500px;
+    float: left;
+    background-color: black;
+   
+   
+}
+/* 关闭视频图标 */
+.cover-video-close .close {
+    
+    width: 50px;
+    height: 50px;
+    float: right;
+    background: url("../images/longyin_z_3fca544.png") no-repeat 0px 0px;
+}
+.school {
+    position: absolute;
+    bottom: 5px;
+    right: 420px;
+}
+/* 技能提示的加号 */
+.jiahao {
+    position: absolute;
+    top: 20px;
+    right: 30%;
+}
+/* 技能展示 */
+.jineng {
+    width: 290px;
+    height: 500px;
+    background-color:rgba(255, 255, 255, 0.3);
+    position: absolute;
+   top: 0px;
+   left: 50%;
+   display: none;
+}
+.jineng .jineng-logo {
+    font: 50px "Alegreya Sans", sans-serif;
+    height: 100px;
+    line-height: 100px;
+}
+.jineng .jineng-logo {
+    text-align: center;
+    color: #dfcd94;  
+}
+.jineng .one,
+.jineng .two,
+.jineng .three {
+    text-align: center;
+}
+.jineng a {
+    font: 30px "Alegreya Sans", sans-serif;
+    height: 80px;
+    line-height: 80px;  
+    display: block;
+    color: #dfcd94;  
+}
+.one-yellow,
+.two-pink,
+.three-green {
+    opacity: 0.6;
+}
+
+
+    
+
+
+/*************************** 页脚样式 */
+.foot {
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+}
+.foot .foot-inner {
+    width: 1000px;
+    height: 48px;
+  
+  padding-top: 15px;
+   
+   margin: 0 auto;
+    /* background-color:red; */
+    
+}
+
+.inner-part1{
+   
+    display: block;
+height: 48px;
+width: 50%;
+    line-height: 48px;
+    
+    float: left;
+}
+.inner-part2 {
+    display: block;
+height: 90px;
+width:480px;
+
+float: right;
+color: #fff;
+
+}
+.inner-part2-i2 a {
+    color: #fff;
+   float: right;
+    background-color: red;
+    line-height: 20px;
+}
+
+
